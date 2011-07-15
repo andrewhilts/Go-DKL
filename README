@@ -20,6 +20,8 @@ Create new MYSQL database, named whatever you want.
 In command line, go to your directory with dkl.sql in it
 Run mysql -u -p YOUR_DB_NAME < dkl.sql
 
+WARNING: the database dump contained herein ("dkl.sql") is only the table structure. Contact me at andrew.hilts@utoronto.ca if you would like sample data.
+
 Edit db-permissions.php to reflect your local setup, change 'thesis' to your own db name.
 
 _____________________________________________________
