@@ -1,0 +1,108 @@
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	var publication = $("#publication");
+	var pubRadio = publication.children(":radio");
+	var pubDiv = publication.children("div");	
+	var relation = $(".relationship");
+	var childrenRadio = relation.children(":radio");
+	var childrenDiv = relation.children("div");
+	for(var i=0; i<relation.length; i++){
+		relation[i][0]=relation[i];
+		relation[i]["radio1"]=childrenRadio[0];
+		relation[i]["radio2"]=childrenRadio[1];
+		relation[i]["radio3"]=childrenRadio[2];
+		relation[i]["radio4"]=childrenRadio[3];
+		relation[i]["Div1"]=childrenDiv[0];
+		relation[i]["Div2"]=childrenDiv[1];
+		relation[i]["Div3"]=childrenDiv[2];
+		relation[i]["Div4"]=childrenDiv[3];
+		}
+	
+		$(relation[0]["radio1"]).click(function(){visible(relation[0]["Div1"],relation[0]["Div2"]);});
+		$(relation[0]["radio2"]).click(function(){visible(relation[0]["Div2"],relation[0]["Div1"]);});
+		$(relation[0]["radio3"]).click(function(){visible(relation[0]["Div3"],relation[0]["Div4"]);});
+		$(relation[0]["radio4"]).click(function(){visible(relation[0]["Div4"],relation[0]["Div3"]);});
+		$(pubRadio[0]).click(function(){visible(pubDiv[0],pubDiv[1]);});
+		$(pubRadio[1]).click(function(){visible(pubDiv[1],pubDiv[0]);});
+  function visible (visible, hidden) {
+  	$(visible).addClass('visible');
+  	$(hidden).removeClass('visible');
+  }
+});
+	</script>
+<style type="text/css">
+input, select {display:block;margin:20px 0 0 0;}
+.newpub, .existingPub, .ExistingParent, .existingChild, .newParent, .newChild {display:none;}
+.visible {display:block;}
+</style>
+<div id="publication">
+	<h2>Publication</h2>
+	<input type="radio" name="pub" value="Existing">	Existing Publication
+		<div class="existingPub visible">
+			<select>
+			  <option value="R1ExistingParent">Afshar</option>
+			</select>
+		</div>
+	<input type="radio" name="pub" value="New">		New Publication
+		<div class="newPub">
+			<input name="author">Author
+			<input name="year">Year
+			<input name="title">Title
+			<input name="description">Description
+		</div>
+</div>
+<h3>Claim</h3>
+	<select>
+	  <option value="claimEmpirical">Empirical Observation</option>
+	  <option value="claimEvidence">Evidence-based Theory</option>
+	  <option value="claimGuidelines">Guidelines</option>
+	  <option value="claimNormative">Normative Theory</option>
+	</select>Type
+	
+<h3>Relationships</h3>
+<div class="relationship" id="relationship1">
+	
+	<input type="radio" name="R1Child" value="Existing">	Existing Child Node
+			<div class="existingChild visible">
+				<select>
+				  <option value="R1ExistingParent">Shared awareness</option>
+				</select>
+			</div>
+	<input type="radio" name="R1Child" value="New">	New Child Node
+			<div class="newChild">
+				<input name="R1ChildName">Name
+				<input name="R1ChildType">Type
+				<input name="R1ChildDesc">Description
+			</div>
+			
+	<input type="radio" name="R1Parent" value="Existing">	Existing Parent Node
+		<div class="existingParent visible">
+			<select>
+			  <option value="R1ExistingParent">Shared Document Creation</option>
+			</select>
+		</div>
+	<input type="radio" name="R1Parent" value="New">	New Parent Node
+			<div class="newParent">
+				<input name="R1ParentName">Name
+				<input name="R1ParentType">Type
+				<input name="R1ParentDesc">Description
+			</div>
+	<select>
+	  <option value="R1helps">Helps</option>
+	  <option value="R1hurts">Hurts</option>
+	  <option value="R1affords">Affords</option>
+	  <option value="R1hasgoal">Has Goal</option>
+	</select>Type
+</div>	
+<hr>
+
+
+
+$Claim
+
+$parentName
+$parentType
+$childName
+$childType
+

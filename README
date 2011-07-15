@@ -1,0 +1,51 @@
+README
+
+Requirements: PHP, MySQL server and database
+Contact: andrew.hilts@utoronto.ca (let me know if you have some issues you think I can help with)
+**************************************
+
+This software is based on the creation of 'project models'. Project models are essentially a series of nodes and their interrelationships. The models are built when the user selects interesting goals and includes them in his/her project. The project models are generated from these included goals and the system automatically retrieves all contributings elements, which are also included in the project model. The user can then browse and reconfigure the project model using the tree list tool, and generate reports based on them.
+
+See www.designknowledge.org/about.html (essentially chapter 5 of my thesis) for a more detailed high-level description as well as a process and data model.
+
+____________________________________________________\
+
+***********INSTALLATION GUIDE***********************
+_________________________________________________________
+
+Unarchive go_dkl.tar.gz into your localhost directory. 
+
+Create new MYSQL database, named whatever you want.
+
+In command line, go to your directory with dkl.sql in it
+Run mysql -u -p YOUR_DB_NAME < dkl.sql
+
+Edit db-permissions.php to reflect your local setup, change 'thesis' to your own db name.
+
+_____________________________________________________
+
+***FILE DESCRIPTIONS*******************
+_________________________________________________
+
+db-permissions.php          very important
+
+***FILES RELATING TO TREE LIST******************************
+
+project_model.php           'Tree-list' tool display page
+    
+    --retrieve and parse project model into unordered list
+    --render tree list
+
+***important dependencies for project_model.php***************    
+treeview.js                 jQuery plugin for rendering tree list
+eval.js                     Evaluation label propagation
+live_queries.php            Queries that retrieve project model, and all other queries used in project
+form_processing.php         Handle form data, and other processing tasks 
+                                 see line 293 for Q7 file creation; 
+                                 see line 237 for project model configuration
+q7_export/q7.php            converts retrieved SQL rows into Q7 file
+jqery.js                    jQuery javascript library; powers treeview and eval
+
+****Other important files**********
+project_model_build.php     index for all project models for that project. Create new models based on project goal inclusions. View reports.
+project_model_report.php    Calculate reports regarding the commonly found publications or related design features.

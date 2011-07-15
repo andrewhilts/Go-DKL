@@ -1,0 +1,239 @@
+	A : Claim 1	B : Claim 10	C : Claim 2	D : Claim 3	E : Claim 4	F : Claim 5	G : Claim 6	H : Claim 7	I : Claim 8	J : Claim 9	K : Claim1
+1 : acceptance (helps) group unity	0	0	1	0	0	0	0	0	0	0	0
+2 : access limitations (affords) limit access to opposing team	1	0	0	0	0	0	0	0	0	0	0
+3 : active comparison of perspectives (helps) conflict be reduced	0	0	0	1	0	0	0	0	0	0	0
+4 : active groups (helps) communication is succinct	0	0	1	0	0	0	0	0	0	0	0
+5 : active groups (hurts) group stability	0	0	0	0	1	0	0	0	0	0	0
+6 : active participation (helps) involvement be increased	0	0	0	0	0	1	0	0	0	0	0
+7 : adhere to standard process (helps) efficiently aggregate content	0	1	0	0	0	0	0	0	0	1	0
+8 : adminstrators (has goal) identify valuable participants	0	0	0	1	0	0	0	0	0	0	0
+9 : advertise user's potential ties (Associated) sign up for membership	0	0	0	0	0	0	0	0	0	0	0
+10 : advertise value of standards (affords) adhere to standard process	0	1	0	0	0	0	0	0	0	0	0
+11 : advisor (has goal) hidden needs uncovered	0	0	0	1	0	0	0	0	0	0	0
+12 : all viewpoints considered (helps) discussion be ethical	1	0	0	0	0	0	0	0	0	0	0
+13 : analyse comment topic (hurts) participation	0	0	0	1	0	0	0	0	0	0	0
+14 : anonymity (affords) comfortable communication	0	0	1	0	0	0	0	0	0	0	0
+15 : anonymity (affords) contribute opinion	1	0	0	0	0	0	0	0	0	0	0
+16 : anonymous advice (affords) help interpret messages	0	0	1	0	0	0	0	0	0	0	0
+17 : archive and link messages (helps) internalization of collective knowledge be supported	0	0	0	0	1	0	0	0	0	0	0
+18 : argument presentation (helps) knowledge externalization be supported	0	0	0	1	0	0	0	0	0	0	0
+19 : articulate purpose of community (affords) differetiate community from others	1	0	1	0	0	0	0	0	0	0	0
+20 : articulate purpose of community (affords) focus on community goals	0	0	0	0	0	0	0	0	0	0	0
+21 : avoid grouping similar people (affords) contribute to diverse topics	0	0	0	0	0	0	0	0	1	0	0
+22 : awareness of shared representation (helps) social norms be emergent	0	0	0	0	0	1	0	0	0	0	0
+23 : bridge f2f and online (helps) trust	0	0	1	0	0	0	0	0	0	0	0
+24 : browse different formalities (helps) ease of use	0	0	0	0	1	0	0	0	0	0	0
+25 : collaborative filtering (affords) prioritize content	1	0	1	0	0	0	0	0	0	0	0
+26 : comfortable communication (helps) sensitive issues be surfaced	0	0	1	0	0	0	0	0	0	0	0
+27 : comment (helps) community involvement	0	0	0	0	1	0	0	0	0	0	0
+28 : comment support (affords) comment	0	0	0	0	1	0	0	0	0	0	0
+29 : complementart collective and personalized knowledge representations (affords) personal control over subset of collective knowledge	0	0	0	0	0	1	0	0	0	0	0
+30 : complex search queries (helps) information sources be broad	1	0	0	0	0	0	0	0	0	0	0
+31 : connect discussion to decision making (affords) sense of relevancy	0	0	0	0	1	0	0	0	0	0	0
+32 : consciously produce social cues (helps) awareness of others activities be supported	0	0	1	0	0	0	0	0	0	0	0
+33 : consciously produce social cues (hurts) effort be minimal	0	0	1	0	0	0	0	0	0	0	0
+34 : contribute opinion (helps) avoid evaluation apprehension	1	0	0	0	0	0	0	0	0	0	0
+35 : contribute to diverse topics (helps) increase content breadth	0	0	0	0	0	0	0	1	1	0	0
+36 : conversation stored as document (affords) awareness of shared representation	0	0	0	0	0	1	0	0	0	0	0
+37 : conversation stored as document (affords) scroll through conversation	0	0	0	0	1	1	0	0	0	0	0
+38 : create safe spaces (helps) reciprocal support	0	0	0	0	0	1	0	0	0	0	0
+39 : deliberative mechanisms (helps) consultation be successful	0	0	0	0	0	0	0	0	0	0	0
+40 : designer (has goal) activity be accessible	0	0	1	0	0	0	0	0	0	0	0
+41 : designer (has goal) adoption	0	0	0	1	0	0	0	0	0	0	0
+42 : designer (has goal) agreement be sincere	0	0	0	1	0	0	0	0	0	0	0
+43 : designer (has goal) awareness of others activities be supported	1	0	1	1	0	0	0	0	0	0	0
+44 : designer (has goal) community be evolvable	0	0	0	1	0	0	0	0	0	0	0
+45 : designer (has goal) community be sustainable	0	0	0	0	1	0	0	0	0	0	0
+46 : designer (has goal) conflict be reduced	0	0	0	1	0	0	0	0	0	0	0
+47 : designer (has goal) consultation be successful	1	0	1	0	0	0	0	0	0	0	0
+48 : designer (has goal) credibility be increased	0	1	0	0	0	0	0	0	0	0	0
+49 : designer (has goal) decision making be facilitated	1	0	0	0	0	0	0	0	0	0	0
+50 : designer (has goal) discussion be ethical	1	0	0	0	0	0	0	0	0	0	0
+51 : designer (has goal) divergent thinking be facilitated	1	0	0	0	0	0	0	0	0	0	0
+52 : designer (has goal) document has diverse viewpoints	0	0	0	0	0	1	0	0	0	0	0
+53 : designer (has goal) ease of use	0	0	1	1	0	1	1	0	0	0	0
+54 : designer (has goal) efficiently aggregate content	0	1	0	0	0	0	0	0	0	1	0
+55 : designer (has goal) emergent collaboration	1	0	0	0	0	0	0	0	0	0	0
+56 : designer (has goal) engagement	0	0	1	0	0	0	0	0	0	0	0
+57 : designer (has goal) flame wars be avoided	0	0	0	0	1	0	0	0	0	0	0
+58 : designer (has goal) foster discussion of differences	1	0	0	0	0	0	0	0	0	0	0
+59 : designer (has goal) foster group identity	0	0	0	1	0	0	0	0	0	0	0
+60 : designer (has goal) group unity	0	0	1	0	0	0	0	0	0	0	0
+61 : designer (has goal) increase content breadth	0	0	0	0	0	0	0	1	1	0	0
+62 : designer (has goal) increase user social ties	0	0	0	0	1	1	1	0	0	0	0
+63 : designer (has goal) information sources be broad	1	0	0	0	0	0	0	0	0	0	0
+64 : designer (has goal) involvement be increased	0	0	0	0	0	1	0	0	0	0	0
+65 : designer (has goal) opinions be diverse	1	0	0	0	0	0	0	0	0	0	0
+66 : designer (has goal) opposing views be expressed	0	0	0	1	0	0	0	0	0	0	0
+67 : designer (has goal) participation	0	0	0	0	0	0	0	0	0	0	0
+68 : designer (has goal) participation increased	0	0	0	1	1	0	0	0	0	0	0
+69 : designer (has goal) priming be reduced	0	0	0	0	1	0	0	0	0	0	0
+70 : designer (has goal) reduce conflict	0	0	1	0	0	0	0	0	0	0	0
+71 : designer (has goal) retain democratic nature	0	0	1	0	0	0	0	0	0	0	0
+72 : designer (has goal) sensitive issues be surfaced	0	0	1	0	0	0	0	0	0	0	0
+73 : designer (has goal) social norms be emergent	0	0	0	0	1	1	0	0	0	0	0
+74 : designer (has goal) sustained interaction	0	0	0	0	1	0	0	0	0	0	0
+75 : designer (has goal) system be scalable	1	0	0	1	0	0	0	0	0	0	0
+76 : designer (has goal) trust	1	0	1	0	0	0	0	0	0	0	0
+77 : designer (has goal) value of unique information maxmized	1	0	1	1	0	0	0	0	0	0	0
+78 : detect frequent viewers (helps) identify valuable participants	0	0	0	1	0	0	0	0	0	0	0
+79 : detect user activity (affords) detect frequent viewers	0	0	0	1	0	0	0	0	0	0	0
+80 : develop user roles (affords) active participation	0	0	0	0	0	1	0	0	0	0	0
+81 : differetiate community from others (helps) register with confidence	1	0	0	0	0	0	0	0	0	0	0
+82 : direct access to content of interest (helps) content be engaging	1	0	0	0	0	0	0	0	0	0	0
+83 : direct access to content of interest (helps) participation	0	0	0	0	0	0	0	0	0	0	0
+84 : discussion threading (affords) group discussion of material	0	0	1	0	0	0	0	0	0	0	0
+85 : display association with reputable org (affords) indicate external credibility	0	1	0	0	0	0	0	0	0	0	0
+86 : display team icons (affords) membership reminder	0	0	0	1	0	0	0	0	0	0	0
+87 : display user post count (affords) recognize user status	0	0	0	1	1	0	0	0	0	0	0
+88 : distinguish members (helps) identity is projected to others	0	0	0	0	0	0	0	1	0	0	0
+89 : divide evaluations into categories of Habermasian inquiry (affords) active comparison of perspectives	0	0	0	1	0	0	0	0	0	0	0
+90 : do not state disagreement (hurts) agreement be sincere	0	0	0	1	0	0	0	0	0	0	0
+91 : easily contribute (helps) participation increased	0	0	0	0	1	0	0	0	0	0	0
+92 : emphaize uniqueness of contribution (affords) increase individual contributions	0	0	0	1	0	0	0	0	0	0	0
+93 : emphasize alliance with reputable organziations (Associated) trust	1	0	0	0	0	0	0	0	0	0	0
+94 : emphasize divergent opinions (affords) contribute to diverse topics	0	0	0	0	0	0	0	1	0	0	0
+95 : emphasize group size and strength (affords) sign up for membership	0	0	0	0	0	1	0	0	0	0	0
+96 : emphasize shared background (helps) build common ground	0	0	0	0	0	0	0	0	0	1	0
+97 : evaluate content (helps) retain democratic nature	0	0	1	0	0	0	0	0	0	0	0
+98 : expand spaces for interaction (helps) community be evolvable	0	0	0	1	0	0	0	0	0	0	0
+99 : express arguments formally (hurts) ease of use	0	0	1	0	0	0	0	0	0	0	0
+100 : expressive communication (helps) ease of use	0	0	0	0	0	1	0	0	0	0	0
+101 : face-to-face (affords) do not state disagreement	0	0	0	1	0	0	0	0	0	0	0
+102 : face-to-face (affords) verbal communication	0	0	0	1	0	0	0	0	0	0	0
+103 : focus on community goals (helps) reduce conflict	0	0	1	0	0	0	0	0	0	0	0
+104 : group discussion of material (helps) engagement	0	0	1	0	0	0	0	0	0	0	0
+105 : group memory recording (affords) separate analysis from ideation	1	0	0	0	0	0	0	0	0	0	0
+106 : group rule followers (affords) adhere to standard process	0	0	0	0	0	0	0	0	0	0	0
+107 : groups (affords) active groups	0	0	1	0	0	0	0	0	0	0	0
+108 : help interpret messages (helps) activity be accessible	0	0	1	0	0	0	0	0	0	0	0
+109 : icommunicate community norms (helps) community be sustainable	0	0	0	0	1	0	0	0	0	0	0
+110 : identify moral differences (helps) foster discussion of differences	1	0	0	0	0	0	0	0	0	0	0
+111 : implicit rating (affords) prioritize referenced messages	0	0	0	0	0	0	1	0	0	0	0
+112 : increase individual contributions (Associated) value of unique information maxmized	1	0	1	1	0	0	0	0	0	0	0
+113 : incremental formalization (affords) knowledge formalization	1	0	0	0	0	0	0	0	0	0	0
+114 : indicate external credibility (helps) credibility be increased	0	1	0	0	0	0	0	0	0	0	0
+115 : indicate user activity history (helps) interaction partners be assessed	0	0	0	0	0	0	0	0	1	0	0
+116 : integrate into single document (helps) document has diverse viewpoints	0	0	0	0	0	1	0	0	0	0	0
+117 : interaction archive (affords) indicate user activity history	0	0	0	0	0	0	0	0	1	0	0
+118 : interweave content and discussion (affords) easily contribute	0	0	0	0	1	0	0	0	0	0	0
+119 : joint email (affords) emphasize alliance with reputable organziations	1	0	0	0	0	0	0	0	0	0	0
+120 : justify censorship (helps) neutrality	0	0	0	0	0	0	1	0	0	0	0
+121 : knowledge formalization (affords) express arguments formally	0	0	1	0	0	0	0	0	0	0	0
+122 : knowledge formalization (helps) decision making be facilitated	1	0	0	0	0	0	0	0	0	0	0
+123 : knowledge representation personalization (affords) archive and link messages	0	0	0	0	1	0	0	0	0	0	0
+124 : lawyer (has goal) selective dissemination of informaiton	1	0	0	0	0	0	0	0	0	0	0
+125 : level of abstraction switching (affords) browse different formalities	0	0	0	0	0	0	0	0	0	0	0
+126 : limit access to opposing team (helps) selective dissemination of informaiton	1	0	0	0	0	0	0	0	0	0	0
+127 : little social pressure (helps) opposing views be expressed	0	0	0	1	0	0	0	0	0	0	0
+128 : little social pressure (hurts) flame wars be avoided	0	0	0	0	1	0	0	0	0	0	0
+129 : local learning seminars (affords) bridge f2f and online	0	0	1	0	0	0	0	0	0	0	0
+130 : locate users on map (affords) emphasize shared background	0	0	0	0	0	0	0	0	0	1	0
+131 : mandate search for related ideas (affords) integrate into single document	0	0	0	0	0	1	0	0	0	0	0
+132 : membership reminder (helps) foster group identity	0	0	0	1	0	0	0	0	0	0	0
+133 : memo card (affords) store selections	0	0	1	0	0	0	0	0	0	0	0
+134 : memo cards (affords) switch between contexts	1	0	0	0	0	0	0	0	0	0	0
+135 : moderation (affords) icommunicate community norms	0	0	0	0	1	0	0	0	0	0	0
+136 : moderation (affords) negative moderation	0	0	0	0	0	0	1	0	0	0	0
+137 : moderation (affords) no moderation	1	0	0	0	0	0	0	0	0	0	0
+138 : moderation (affords) obtain social cues	0	0	1	0	0	0	0	0	0	0	0
+139 : moderation (helps) group stability	0	0	0	0	0	1	0	0	0	0	0
+140 : monitor user online status (affords) synchronous collaboration request	0	0	0	0	1	0	0	0	0	0	0
+141 : natural interaction (helps) adoption	0	0	1	0	0	0	0	0	0	0	0
+142 : negative moderation (helps) participation	0	0	0	0	0	0	1	0	0	0	0
+143 : new user (has goal) community involvement	0	0	0	0	1	0	0	0	0	0	0
+144 : new user (has goal) participation	1	0	0	0	0	1	1	0	0	0	0
+145 : new users (has goal) register with confidence	1	0	0	0	0	0	0	0	0	0	0
+146 : no horizontal scrolling (helps) usability	0	0	0	0	0	0	1	0	0	0	0
+147 : no moderation (hurts) participation	1	0	0	0	0	0	0	0	0	0	0
+148 : obtain social cues (helps) perform for audience	0	0	1	0	0	0	0	0	0	0	0
+149 : online status updates (affords) perceive space as active	0	0	0	0	0	0	1	0	0	0	0
+150 : overlook issues (hurts) priming be reduced	0	0	0	0	0	0	0	0	0	0	0
+151 : perceive space as active (helps) identity is projected to others	0	0	0	0	0	0	1	0	0	0	0
+152 : persistent identity (affords) distinguish members	0	0	0	0	0	0	0	1	0	0	0
+153 : personal control over subset of collective knowledge (helps) determining relevent discussion to join be simple	0	0	0	0	0	1	0	0	0	0	0
+154 : personal control over subset of collective knowledge (helps) referring to others be simple	0	0	0	0	0	1	0	0	0	0	0
+155 : personal control over subset of collective knowledge (helps) summarization be simple	0	0	0	0	0	1	0	0	0	0	0
+156 : personal control over subset of collective knowledge (helps) tracking relevant messages be simple	0	0	0	0	0	1	0	0	0	0	0
+157 : personalization (affords) direct access to content of interest	1	0	0	0	0	0	0	0	0	0	0
+158 : portray social cues (helps) awareness of others activities be supported	1	0	1	1	0	0	0	0	0	0	0
+159 : prioritize content (helps) relevant information be accesible	0	0	1	0	0	0	0	0	0	0	0
+160 : prioritize content (hurts) opinions be diverse	1	0	0	0	0	0	0	0	0	0	0
+161 : prioritize referenced messages (helps) determining relevent discussion to join be simple	0	0	0	0	0	0	1	0	0	0	0
+162 : private discussion groups (affords) create safe spaces	0	0	0	0	0	1	0	0	0	0	0
+163 : profile outlines moral positoins (affords) identify moral differences	1	0	0	0	0	0	0	0	0	0	0
+164 : prominent display of contributions (affords) increase individual contributions	1	0	1	1	0	0	0	0	0	0	0
+165 : promote competitoin among groups (affords) sign up for membership	0	0	0	0	0	0	1	0	0	0	0
+166 : provide equal opportunity to participate (affords) all viewpoints considered	1	0	0	0	0	0	0	0	0	0	0
+167 : publish personal interests (helps) community bond be forged	0	0	1	0	0	0	0	0	0	0	0
+168 : purpose statement (affords) reflect user interests	0	0	0	1	0	0	0	0	0	0	0
+169 : qurery prothesis (affords) complex search queries	1	0	0	0	0	0	0	0	0	0	0
+170 : receive reply (helps) participation	0	0	0	0	0	1	0	0	0	0	0
+171 : recognize user status (helps) be associated with status	0	0	0	1	0	0	0	0	0	0	0
+172 : recognize user status (helps) sustained interaction	0	0	0	0	1	0	0	0	0	0	0
+173 : reflect user interests (helps) participation increased	0	0	0	1	0	0	0	0	0	0	0
+174 : reply effort (hurts) reduce effort	1	0	0	0	0	0	0	0	0	0	0
+175 : reply support (affords) receive reply	0	0	0	0	0	1	0	0	0	0	0
+176 : reply support (helps) small messages	0	0	0	1	0	0	0	0	0	0	0
+177 : require comment labeling (affords) analyse comment topic	0	0	0	1	0	0	0	0	0	0	0
+178 : require user endoresements (affords) evaluate content	0	0	1	0	0	0	0	0	0	0	0
+179 : reuse analyses (affords) overlook issues	0	0	0	0	1	0	0	0	0	0	0
+180 : rich text (affords) expressive communication	0	0	0	0	0	1	0	0	0	0	0
+181 : scroll through conversation (helps) social norms be emergent	0	0	0	0	1	0	0	0	0	0	0
+182 : semantic icons (affords) argument presentation	0	0	0	1	0	0	0	0	0	0	0
+183 : sense of relevancy (helps) political efficacy	0	0	0	0	1	0	0	0	0	0	0
+184 : separate analysis from ideation (helps) divergent thinking be facilitated	1	0	0	0	0	0	0	0	0	0	0
+185 : sign up for membership (helps) increase user social ties	0	0	0	0	1	1	1	0	0	0	0
+186 : single page workspace (affords) no horizontal scrolling	0	0	0	0	0	0	1	0	0	0	0
+187 : single repository of knowledge (hurts) determining relevent discussion to join be simple	0	0	1	0	0	0	0	0	0	0	0
+188 : single repository of knowledge (hurts) referring to others be simple	0	0	1	0	0	0	0	0	0	0	0
+189 : single repository of knowledge (hurts) summarization be simple	0	0	1	0	0	0	0	0	0	0	0
+190 : single repository of knowledge (hurts) tracking relevant messages be simple	0	0	1	0	0	0	0	0	0	0	0
+191 : single repository of knowledge (makes) collective knowledge representation be supported	1	0	0	0	0	0	0	0	0	0	0
+192 : Slashdot participants (has goal) perform for audience	0	0	1	0	0	0	0	0	0	0	0
+193 : small messages (helps) sustained interaction	0	0	0	1	0	0	0	0	0	0	0
+194 : store selections (helps) transparent collaboration state	0	0	1	0	0	0	0	0	0	0	0
+195 : strategic participant selection (helps) consultation be successful	1	0	0	0	1	0	0	0	0	0	0
+196 : student (has goal) determining relevent discussion to join be simple	0	0	1	0	0	0	0	0	0	0	0
+197 : student (has goal) internalization of collective knowledge be supported	0	0	0	0	1	0	0	0	0	0	0
+198 : student (has goal) knowledge externalization be supported	0	0	0	1	0	0	0	0	0	0	0
+199 : student (has goal) referring to others be simple	0	0	1	0	0	0	0	0	0	0	0
+200 : student (has goal) summarization be simple	0	0	1	0	0	0	0	0	0	0	0
+201 : student (has goal) tracking relevant messages be simple	0	0	1	0	0	0	1	0	0	0	0
+202 : support peer evaluation (affords) increase individual contributions	0	0	1	0	0	0	0	0	0	0	0
+203 : support thread creation (affords) expand spaces for interaction	0	0	0	1	0	0	0	0	0	0	0
+204 : switch between contexts (helps) emergent collaboration	1	0	0	0	0	0	0	0	0	0	0
+205 : synchronous collaboration request (helps) real time collaboration	0	0	0	0	1	0	0	0	0	0	0
+206 : textual discussion (affords) little social pressure	0	0	0	1	1	0	0	0	0	0	0
+207 : textual discussion (affords) portray social cues	0	0	0	1	0	0	0	0	0	0	0
+208 : textual discussion (helps) system be scalable	0	0	0	1	0	0	0	0	0	0	0
+209 : textual discussoin (affords) natural interaction	0	0	0	1	0	0	0	0	0	0	0
+210 : thread (affords) reply effort	1	0	0	0	0	0	0	0	0	0	0
+211 : threaded discussion (affords) single repository of knowledge	1	0	0	0	0	0	0	0	0	0	0
+212 : transparent moderation (affords) justify censorship	0	0	0	0	0	0	1	0	0	0	0
+213 : user (Associated) content be engaging	1	0	0	0	0	0	0	0	0	0	0
+214 : user (Associated) group stability	0	0	0	0	1	0	0	0	0	0	0
+215 : user (has goal) avoid evaluation apprehension	1	0	0	0	0	0	0	0	0	0	0
+216 : user (has goal) be associated with status	0	0	0	1	0	0	0	0	0	0	0
+217 : user (has goal) build common ground	0	0	0	0	0	0	0	0	0	1	0
+218 : user (has goal) collective knowledge representation be supported	1	0	0	0	0	0	0	0	0	0	0
+219 : user (has goal) communication is succinct	0	0	1	0	0	0	0	0	0	0	0
+220 : user (has goal) community bond be forged	0	0	1	0	0	0	0	0	0	0	0
+221 : user (has goal) effort be minimal	0	0	1	0	0	0	0	0	0	0	0
+222 : user (has goal) identity is projected to others	0	0	0	0	0	0	1	1	0	0	0
+223 : user (has goal) interaction partners be assessed	0	0	0	0	0	0	0	0	1	0	0
+224 : user (has goal) neutrality	0	0	0	0	0	0	1	0	0	0	0
+225 : user (has goal) participation	0	0	0	1	0	0	0	0	0	0	0
+226 : user (has goal) political efficacy	0	0	0	0	1	0	0	0	0	0	0
+227 : user (has goal) real time collaboration	0	0	0	0	1	0	0	0	0	0	0
+228 : user (has goal) reciprocal support	0	0	0	0	0	1	0	0	0	0	0
+229 : user (has goal) reduce effort	1	0	0	0	0	0	0	0	0	0	0
+230 : user (has goal) relevant information be accesible	0	0	1	0	0	0	0	0	0	0	0
+231 : user (has goal) sustained interaction	0	0	0	0	0	0	0	0	0	0	0
+232 : user (has goal) transparent collaboration state	0	0	1	0	0	0	0	0	0	0	0
+233 : user profiles (affords) publish personal interests	0	0	1	0	0	0	0	0	0	0	0
+234 : value all disagreements (affords) acceptance	0	0	1	0	0	0	0	0	0	0	0
+235 : verbal communication (helps) hidden needs uncovered	0	0	0	1	0	0	0	0	0	0	0
+236 : video chat (affords) portray social cues	1	0	0	0	0	0	0	0	0	0	0
+237 : video chat (hurts) system be scalable	1	0	0	0	0	0	0	0	0	0	0
+238 : virtual world (affords) consciously produce social cues	0	0	1	0	0	0	0	0	0	0	0

@@ -1,0 +1,196 @@
+
+"Community's assesment of plans be emphasized"{ & ;
+	"normative [Community's assesment of plans be emphasized]"
+	"community building [Community's assesment of plans be emphasized]"
+	"information management [Community's assesment of plans be emphasized]"
+	"deliverable [Community's assesment of plans be emphasized]"
+	"accessibility [Community's assesment of plans be emphasized]"
+	"usability [Community's assesment of plans be emphasized]"
+}
+
+"normative"{ & ;
+	"normative [Community's assesment of plans be emphasized]"
+}
+
+"community building"{ & ;
+	"community building [Community's assesment of plans be emphasized]"
+}
+
+"information management"{ & ;
+	"information management [Community's assesment of plans be emphasized]"
+}
+
+"deliverable"{ & ;
+	"deliverable [Community's assesment of plans be emphasized]"
+}
+
+"accessibility"{ & ;
+	"accessibility [Community's assesment of plans be emphasized]"
+}
+
+"usability"{ & ;
+	"usability [Community's assesment of plans be emphasized]"
+}
+
+	"agreement be sincere" => + "normative [Community's assesment of plans be emphasized]"
+	"determining relevent discussion to join be simple" => + "community building [Community's assesment of plans be emphasized]"
+	"referring to others be simple" => + "community building [Community's assesment of plans be emphasized]"
+	"summarization be simple" => + "community building [Community's assesment of plans be emphasized]"
+	"awareness of others activities be supported" => + "community building [Community's assesment of plans be emphasized]"
+	"efficiently aggregate content" => + "information management [Community's assesment of plans be emphasized]"
+	"relevant information be accesible" => + "information management [Community's assesment of plans be emphasized]"
+	"foster discussion of differences" => + "deliverable [Community's assesment of plans be emphasized]"
+	"hidden needs uncovered" => + "deliverable [Community's assesment of plans be emphasized]"
+	"sensitive issues be surfaced" => + "deliverable [Community's assesment of plans be emphasized]"
+	"decision making be facilitated" => + "deliverable [Community's assesment of plans be emphasized]"
+	"awareness of others activities be supported" => + "accessibility [Community's assesment of plans be emphasized]"
+	"relevant information be accesible" => + "accessibility [Community's assesment of plans be emphasized]"
+	"determining relevent discussion to join be simple" => + "usability [Community's assesment of plans be emphasized]"
+	"referring to others be simple" => + "usability [Community's assesment of plans be emphasized]"
+	"summarization be simple" => + "usability [Community's assesment of plans be emphasized]"
+//Actions - Goals
+
+//agreement be sincere
+	"do not state disagreement" => - "agreement be sincere"
+	"acceptance" => + "agreement be sincere"
+	"identify moral differences" => + "agreement be sincere"
+	"negative moderation" => - "agreement be sincere"
+//determining relevent discussion to join be simple
+	"single repository of knowledge" => - "determining relevent discussion to join be simple"
+	"prioritize referenced messages" => + "determining relevent discussion to join be simple"
+	"direct access to content of interest" => + "determining relevent discussion to join be simple"
+	"help interpret messages" => + "determining relevent discussion to join be simple"
+	"perceive space as active" => + "determining relevent discussion to join be simple"
+	"prioritize content" => + "determining relevent discussion to join be simple"
+//referring to others be simple
+	"single repository of knowledge" => - "referring to others be simple"
+//summarization be simple
+	"single repository of knowledge" => - "summarization be simple"
+	"evaluate content" => + "summarization be simple"
+	"express arguments formally" => + "summarization be simple"
+	"expressive communication" => - "summarization be simple"
+	"help interpret messages" => + "summarization be simple"
+	"prioritize content" => + "summarization be simple"
+	"synchronous collaboration request" => - "summarization be simple"
+	"verbal communication" => + "summarization be simple"
+	"verbal communication" => - "summarization be simple"
+//awareness of others activities be supported
+	"portray social cues" => + "awareness of others activities be supported"
+	"consciously produce social cues" => + "awareness of others activities be supported"
+	"awareness of shared representation" => + "awareness of others activities be supported"
+	"indicate user activity history" => + "awareness of others activities be supported"
+	"perceive space as active" => + "awareness of others activities be supported"
+//efficiently aggregate content
+	"adhere to standard process" => + "efficiently aggregate content"
+	"analyse comment topic" => + "efficiently aggregate content"
+	"direct access to content of interest" => + "efficiently aggregate content"
+	"expand spaces for interaction" => - "efficiently aggregate content"
+	"express arguments formally" => + "efficiently aggregate content"
+	"help interpret messages" => + "efficiently aggregate content"
+	"negative moderation" => + "efficiently aggregate content"
+	"prioritize content" => + "efficiently aggregate content"
+//relevant information be accesible
+	"prioritize content" => + "relevant information be accesible"
+	"direct access to content of interest" => + "relevant information be accesible"
+	"do not state disagreement" => - "relevant information be accesible"
+//foster discussion of differences
+	"identify moral differences" => + "foster discussion of differences"
+	"all viewpoints considered" => + "foster discussion of differences"
+	"direct access to content of interest" => - "foster discussion of differences"
+	"do not state disagreement" => - "foster discussion of differences"
+	"emphasize shared background" => - "foster discussion of differences"
+//hidden needs uncovered
+	"verbal communication" => + "hidden needs uncovered"
+	"expressive communication" => + "hidden needs uncovered"
+	"natural interaction" => + "hidden needs uncovered"
+//sensitive issues be surfaced
+	"comfortable communication" => + "sensitive issues be surfaced"
+	"all viewpoints considered" => + "sensitive issues be surfaced"
+	"direct access to content of interest" => - "sensitive issues be surfaced"
+//decision making be facilitated
+	"knowledge formalization" => + "decision making be facilitated"
+	"evaluate content" => + "decision making be facilitated"
+	"expand spaces for interaction" => - "decision making be facilitated"
+	"express arguments formally" => + "decision making be facilitated"
+	"help interpret messages" => + "decision making be facilitated"
+	"identify moral differences" => + "decision making be facilitated"
+	"integrate into single document" => + "decision making be facilitated"
+	"negative moderation" => + "decision making be facilitated"
+	"prioritize content" => + "decision making be facilitated"
+//Designs - Actions
+
+	"!@#@!" => + "do not state disagreement"
+	"!@#@!" => + "acceptance"
+	"!@#@!" => + "identify moral differences"
+	"!@#@!" => + "negative moderation"
+	"!@#@!" => + "single repository of knowledge"
+	"!@#@!" => + "prioritize referenced messages"
+	"!@#@!" => + "direct access to content of interest"
+	"!@#@!" => + "help interpret messages"
+	"!@#@!" => + "perceive space as active"
+	"!@#@!" => + "prioritize content"
+	"!@#@!" => + "evaluate content"
+	"!@#@!" => + "express arguments formally"
+	"!@#@!" => + "expressive communication"
+	"!@#@!" => + "synchronous collaboration request"
+	"!@#@!" => + "verbal communication"
+	"!@#@!" => + "portray social cues"
+	"!@#@!" => + "consciously produce social cues"
+	"!@#@!" => + "awareness of shared representation"
+	"!@#@!" => + "indicate user activity history"
+	"!@#@!" => + "adhere to standard process"
+	"!@#@!" => + "analyse comment topic"
+	"!@#@!" => + "expand spaces for interaction"
+	"!@#@!" => + "all viewpoints considered"
+	"!@#@!" => + "emphasize shared background"
+	"!@#@!" => + "natural interaction"
+	"!@#@!" => + "comfortable communication"
+	"!@#@!" => + "knowledge formalization"
+	"!@#@!" => + "integrate into single document"
+"Dummy"{ & ;
+	"normative"
+	"community building"
+	"information management"
+	"deliverable"
+	"accessibility"
+	"usability"
+	"agreement be sincere"
+	"determining relevent discussion to join be simple"
+	"referring to others be simple"
+	"summarization be simple"
+	"awareness of others activities be supported"
+	"efficiently aggregate content"
+	"relevant information be accesible"
+	"foster discussion of differences"
+	"hidden needs uncovered"
+	"sensitive issues be surfaced"
+	"decision making be facilitated"
+	"do not state disagreement"
+	"acceptance"
+	"identify moral differences"
+	"negative moderation"
+	"single repository of knowledge"
+	"prioritize referenced messages"
+	"direct access to content of interest"
+	"help interpret messages"
+	"perceive space as active"
+	"prioritize content"
+	"evaluate content"
+	"express arguments formally"
+	"expressive communication"
+	"synchronous collaboration request"
+	"verbal communication"
+	"portray social cues"
+	"consciously produce social cues"
+	"awareness of shared representation"
+	"indicate user activity history"
+	"adhere to standard process"
+	"analyse comment topic"
+	"expand spaces for interaction"
+	"all viewpoints considered"
+	"emphasize shared background"
+	"natural interaction"
+	"comfortable communication"
+	"knowledge formalization"
+	"integrate into single document"
+}

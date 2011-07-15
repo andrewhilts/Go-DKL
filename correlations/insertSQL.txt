@@ -1,0 +1,1 @@
+INSERT INTO `relationships` (child, type, parent, claim_id) VALUES 

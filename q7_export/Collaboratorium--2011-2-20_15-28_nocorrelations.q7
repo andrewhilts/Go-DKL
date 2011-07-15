@@ -1,0 +1,438 @@
+
+"May Community's assesment of plans be emphasized"{ & ;
+	"May Community be developed [Community's assesment of plans be emphasized]"
+	"May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May Deliverable creation be facilitated [Community's assesment of plans be emphasized]"
+	"May Accessibility be rigourous [Community's assesment of plans be emphasized]"
+	"May Normative ideals be met [Community's assesment of plans be emphasized]"
+	"May Information be managed effectively [Community's assesment of plans be emphasized]"
+}
+
+"May Descriptions, impacts, and models be understandable"{ & ;
+	"May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May Participation be broad and sustainable [Descriptions, impacts, and models be understandable]"
+	"May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May Accessibility be rigourous [Descriptions, impacts, and models be understandable]"
+}
+
+"May Niche group development be facilitated"{ & ;
+	"May Community be developed [Niche group development be facilitated]"
+	"May Identity be mangeable [Niche group development be facilitated]"
+}
+
+"May Plan comparison be facilitated"{ & ;
+	"May Discussions be facilitated [Plan comparison be facilitated]"
+	"May Deliverable creation be facilitated [Plan comparison be facilitated]"
+	"May Information be managed effectively [Plan comparison be facilitated]"
+	"May Community be developed [Plan comparison be facilitated]"
+}
+
+"May Scientific accuracy and accessibility be balanced"{ & ;
+	"May Information be managed effectively [Scientific accuracy and accessibility be balanced]"
+	"May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May Accessibility be rigourous [Scientific accuracy and accessibility be balanced]"
+}
+
+"May Selected plans have real policy influence"{ & ;
+	"May Deliverable creation be facilitated [Selected plans have real policy influence]"
+}
+
+"May User opinions be considered by plan makers"{ & ;
+	"May Community be developed [User opinions be considered by plan makers]"
+	"May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May Participation be broad and sustainable [User opinions be considered by plan makers]"
+	"May Normative ideals be met [User opinions be considered by plan makers]"
+}
+
+"May Users be incentivized to participate"{ & ;
+	"May Community be developed [Users be incentivized to participate]"
+	"May Participation be broad and sustainable [Users be incentivized to participate]"
+	"May Accessibility be rigourous [Users be incentivized to participate]"
+}
+
+"May Community be developed"{ & ;
+	"May Community be developed [Community's assesment of plans be emphasized]"
+	"May Community be developed [Niche group development be facilitated]"
+	"May Community be developed [Plan comparison be facilitated]"
+	"May Community be developed [User opinions be considered by plan makers]"
+	"May Community be developed [Users be incentivized to participate]"
+}
+
+"May Usability be rigorous"{ & ;
+	"May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+}
+
+"May Deliverable creation be facilitated"{ & ;
+	"May Deliverable creation be facilitated [Community's assesment of plans be emphasized]"
+	"May Deliverable creation be facilitated [Plan comparison be facilitated]"
+	"May Deliverable creation be facilitated [Selected plans have real policy influence]"
+}
+
+"May Accessibility be rigourous"{ & ;
+	"May Accessibility be rigourous [Community's assesment of plans be emphasized]"
+	"May Accessibility be rigourous [Descriptions, impacts, and models be understandable]"
+	"May Accessibility be rigourous [Scientific accuracy and accessibility be balanced]"
+	"May Accessibility be rigourous [Users be incentivized to participate]"
+}
+
+"May Normative ideals be met"{ & ;
+	"May Normative ideals be met [Community's assesment of plans be emphasized]"
+	"May Normative ideals be met [User opinions be considered by plan makers]"
+}
+
+"May Information be managed effectively"{ & ;
+	"May Information be managed effectively [Community's assesment of plans be emphasized]"
+	"May Information be managed effectively [Plan comparison be facilitated]"
+	"May Information be managed effectively [Scientific accuracy and accessibility be balanced]"
+}
+
+"May Participation be broad and sustainable"{ & ;
+	"May Participation be broad and sustainable [Descriptions, impacts, and models be understandable]"
+	"May Participation be broad and sustainable [User opinions be considered by plan makers]"
+	"May Participation be broad and sustainable [Users be incentivized to participate]"
+}
+
+"May System be personalizable"{ & ;
+	"May System be personalizable [Descriptions, impacts, and models be understandable]"
+}
+
+"May Identity be mangeable"{ & ;
+	"May Identity be mangeable [Niche group development be facilitated]"
+}
+
+"May Discussions be facilitated"{ & ;
+	"May Discussions be facilitated [Plan comparison be facilitated]"
+	"May Discussions be facilitated [User opinions be considered by plan makers]"
+}
+
+"May Activities be trustworthy"{ & ;
+	"May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+}
+
+	"May summarization be simple" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May awareness of others activities be supported" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May determining relevent discussion to join be simple" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May referring to others be simple" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May reciprocal support" => + "May Community be developed [Niche group development be facilitated]"
+	"May determining relevent discussion to join be simple" => + "May Community be developed [Niche group development be facilitated]"
+	"May referring to others be simple" => + "May Community be developed [Niche group development be facilitated]"
+	"May tracking relevant messages be simple" => + "May Community be developed [Niche group development be facilitated]"
+	"May awareness of others activities be supported" => + "May Community be developed [Niche group development be facilitated]"
+	"May social norms be emergent" => + "May Community be developed [Niche group development be facilitated]"
+	"May community be evolvable" => + "May Community be developed [Niche group development be facilitated]"
+	"May interaction partners be assessed" => + "May Community be developed [Niche group development be facilitated]"
+	"May build common ground" => + "May Community be developed [Niche group development be facilitated]"
+	"May sustained interaction" => + "May Community be developed [Niche group development be facilitated]"
+	"May community bond be forged" => + "May Community be developed [Niche group development be facilitated]"
+	"May foster group identity" => + "May Community be developed [Niche group development be facilitated]"
+	"May summarization be simple" => + "May Community be developed [Plan comparison be facilitated]"
+	"May interaction partners be assessed" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May build common ground" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May sustained interaction" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May determining relevent discussion to join be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May referring to others be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May summarization be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May tracking relevant messages be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May awareness of others activities be supported" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May increase user social ties" => + "May Community be developed [Users be incentivized to participate]"
+	"May be associated with status" => + "May Community be developed [Users be incentivized to participate]"
+	"May determining relevent discussion to join be simple" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May referring to others be simple" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May summarization be simple" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May determining relevent discussion to join be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May referring to others be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May summarization be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May tracking relevant messages be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May reduce effort" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May ease of use" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May usability" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May adoption" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May foster discussion of differences" => + "May Deliverable creation be facilitated [Community's assesment of plans be emphasized]"
+	"May hidden needs uncovered" => + "May Deliverable creation be facilitated [Community's assesment of plans be emphasized]"
+	"May sensitive issues be surfaced" => + "May Deliverable creation be facilitated [Community's assesment of plans be emphasized]"
+	"May decision making be facilitated" => + "May Deliverable creation be facilitated [Community's assesment of plans be emphasized]"
+	"May foster discussion of differences" => + "May Deliverable creation be facilitated [Plan comparison be facilitated]"
+	"May content be engaging" => + "May Deliverable creation be facilitated [Selected plans have real policy influence]"
+	"May decision making be facilitated" => + "May Deliverable creation be facilitated [Selected plans have real policy influence]"
+	"May awareness of others activities be supported" => + "May Accessibility be rigourous [Community's assesment of plans be emphasized]"
+	"May relevant information be accesible" => + "May Accessibility be rigourous [Community's assesment of plans be emphasized]"
+	"May effort be minimal" => + "May Accessibility be rigourous [Descriptions, impacts, and models be understandable]"
+	"May relevant information be accesible" => + "May Accessibility be rigourous [Descriptions, impacts, and models be understandable]"
+	"May activity be accessible" => + "May Accessibility be rigourous [Descriptions, impacts, and models be understandable]"
+	"May effort be minimal" => + "May Accessibility be rigourous [Scientific accuracy and accessibility be balanced]"
+	"May relevant information be accesible" => + "May Accessibility be rigourous [Scientific accuracy and accessibility be balanced]"
+	"May engagement" => + "May Accessibility be rigourous [Users be incentivized to participate]"
+	"May agreement be sincere" => + "May Normative ideals be met [Community's assesment of plans be emphasized]"
+	"May divergent thinking be facilitated" => + "May Normative ideals be met [User opinions be considered by plan makers]"
+	"May efficiently aggregate content" => + "May Information be managed effectively [Community's assesment of plans be emphasized]"
+	"May relevant information be accesible" => + "May Information be managed effectively [Community's assesment of plans be emphasized]"
+	"May efficiently aggregate content" => + "May Information be managed effectively [Plan comparison be facilitated]"
+	"May relevant information be accesible" => + "May Information be managed effectively [Plan comparison be facilitated]"
+	"May relevant information be accesible" => + "May Information be managed effectively [Scientific accuracy and accessibility be balanced]"
+	"May information sources be broad" => + "May Information be managed effectively [Scientific accuracy and accessibility be balanced]"
+	"May involvement be increased" => + "May Participation be broad and sustainable [Descriptions, impacts, and models be understandable]"
+	"May content be engaging" => + "May Participation be broad and sustainable [Descriptions, impacts, and models be understandable]"
+	"May ease of use" => + "May Participation be broad and sustainable [Descriptions, impacts, and models be understandable]"
+	"May adoption" => + "May Participation be broad and sustainable [Descriptions, impacts, and models be understandable]"
+	"May participation increased" => + "May Participation be broad and sustainable [User opinions be considered by plan makers]"
+	"May involvement be increased" => + "May Participation be broad and sustainable [User opinions be considered by plan makers]"
+	"May sustained interaction" => + "May Participation be broad and sustainable [User opinions be considered by plan makers]"
+	"May flame wars be avoided" => + "May Participation be broad and sustainable [User opinions be considered by plan makers]"
+	"May participation increased" => + "May Participation be broad and sustainable [Users be incentivized to participate]"
+	"May involvement be increased" => + "May Participation be broad and sustainable [Users be incentivized to participate]"
+	"May participation" => + "May Participation be broad and sustainable [Users be incentivized to participate]"
+	"May content be engaging" => + "May Participation be broad and sustainable [Users be incentivized to participate]"
+	"May referring to others be simple" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May summarization be simple" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May interaction partners be assessed" => + "May Identity be mangeable [Niche group development be facilitated]"
+	"May build common ground" => + "May Identity be mangeable [Niche group development be facilitated]"
+	"May foster group identity" => + "May Identity be mangeable [Niche group development be facilitated]"
+	"May determining relevent discussion to join be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May referring to others be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May summarization be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May tracking relevant messages be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May referring to others be simple" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May summarization be simple" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May tracking relevant messages be simple" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May flame wars be avoided" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May trust" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May credibility be increased" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+//Actions - Goals
+
+//summarization be simple
+	"single repository of knowledge" => - "May summarization be simple"
+//awareness of others activities be supported
+	"portray social cues" => + "May awareness of others activities be supported"
+	"consciously produce social cues" => + "May awareness of others activities be supported"
+//determining relevent discussion to join be simple
+	"single repository of knowledge" => - "May determining relevent discussion to join be simple"
+	"prioritize referenced messages" => + "May determining relevent discussion to join be simple"
+//referring to others be simple
+	"single repository of knowledge" => - "May referring to others be simple"
+//foster discussion of differences
+	"identify moral differences" => + "May foster discussion of differences"
+//hidden needs uncovered
+	"verbal communication" => + "May hidden needs uncovered"
+//sensitive issues be surfaced
+	"comfortable communication" => + "May sensitive issues be surfaced"
+//decision making be facilitated
+	"knowledge formalization" => + "May decision making be facilitated"
+//agreement be sincere
+	"do not state disagreement" => - "May agreement be sincere"
+//efficiently aggregate content
+	"adhere to standard process" => + "May efficiently aggregate content"
+//relevant information be accesible
+	"prioritize content" => + "May relevant information be accesible"
+//tracking relevant messages be simple
+	"single repository of knowledge" => - "May tracking relevant messages be simple"
+//reduce effort
+	"reply effort" => - "May reduce effort"
+//ease of use
+	"expressive communication" => + "May ease of use"
+	"express arguments formally" => - "May ease of use"
+//involvement be increased
+	"active participation" => + "May involvement be increased"
+//usability
+	"no horizontal scrolling" => + "May usability"
+//content be engaging
+	"direct access to content of interest" => + "May content be engaging"
+//adoption
+	"natural interaction" => + "May adoption"
+//effort be minimal
+	"consciously produce social cues" => - "May effort be minimal"
+//activity be accessible
+	"help interpret messages" => + "May activity be accessible"
+//reciprocal support
+	"create safe spaces" => + "May reciprocal support"
+//social norms be emergent
+	"scroll through conversation" => + "May social norms be emergent"
+	"awareness of shared representation" => + "May social norms be emergent"
+//community be evolvable
+	"expand spaces for interaction" => + "May community be evolvable"
+//interaction partners be assessed
+	"indicate user activity history" => + "May interaction partners be assessed"
+//build common ground
+	"emphasize shared background" => + "May build common ground"
+//sustained interaction
+	"small messages" => + "May sustained interaction"
+	"recognize user status" => + "May sustained interaction"
+//foster group identity
+	"membership reminder" => + "May foster group identity"
+//community bond be forged
+	"publish personal interests" => + "May community bond be forged"
+//information sources be broad
+	"complex search queries" => + "May information sources be broad"
+//trust
+	"emphasize alliance with reputable organziations" => + "May trust"
+	"bridge f2f and online" => + "May trust"
+//credibility be increased
+	"indicate external credibility" => + "May credibility be increased"
+//flame wars be avoided
+	"little social pressure" => - "May flame wars be avoided"
+//participation increased
+	"reflect user interests" => + "May participation increased"
+	"easily contribute" => + "May participation increased"
+//divergent thinking be facilitated
+	"separate analysis from ideation" => + "May divergent thinking be facilitated"
+//increase user social ties
+	"sign up for membership" => + "May increase user social ties"
+//be associated with status
+	"recognize user status" => + "May be associated with status"
+//engagement
+	"group discussion of material" => + "May engagement"
+//participation
+	"no moderation" => - "May participation"
+	"receive reply" => + "May participation"
+	"negative moderation" => + "May participation"
+	"analyse comment topic" => - "May participation"
+//Designs - Actions
+
+	"Do threaded discussion" => ++ "single repository of knowledge"
+	"Do video chat" => ++ "portray social cues"
+	"Do textual discussion" => ++ "portray social cues"
+	"Do virtual world" => ++ "consciously produce social cues"
+	"Do implicit rating" => ++ "prioritize referenced messages"
+	"Do profile outlines moral positoins" => ++ "identify moral differences"
+	"Do face-to-face" => ++ "verbal communication"
+	"Do anonymity" => ++ "comfortable communication"
+	"Do incremental formalization" => ++ "knowledge formalization"
+	"Do face-to-face" => ++ "do not state disagreement"
+	"Do group rule followers" => ++ "adhere to standard process"
+	"Do advertise value of standards" => ++ "adhere to standard process"
+	"Do collaborative filtering" => ++ "prioritize content"
+	"Do thread" => ++ "reply effort"
+	"Do rich text" => ++ "expressive communication"
+	"Do knowledge formalization" => ++ "express arguments formally"
+	"Do develop user roles" => ++ "active participation"
+	"Do single page workspace" => ++ "no horizontal scrolling"
+	"Do personalization" => ++ "direct access to content of interest"
+	"Do textual discussoin" => ++ "natural interaction"
+	"Do anonymous advice" => ++ "help interpret messages"
+	"Do private discussion groups" => ++ "create safe spaces"
+	"Do conversation stored as document" => ++ "scroll through conversation"
+	"Do conversation stored as document" => ++ "awareness of shared representation"
+	"Do support thread creation" => ++ "expand spaces for interaction"
+	"Do interaction archive" => ++ "indicate user activity history"
+	"Do locate users on map" => ++ "emphasize shared background"
+	"Do reply support" => + "small messages"
+	"Do display user post count" => ++ "recognize user status"
+	"Do display team icons" => ++ "membership reminder"
+	"Do user profiles" => ++ "publish personal interests"
+	"Do qurery prothesis" => ++ "complex search queries"
+	"Do joint email" => ++ "emphasize alliance with reputable organziations"
+	"Do local learning seminars" => ++ "bridge f2f and online"
+	"Do display association with reputable org" => ++ "indicate external credibility"
+	"Do textual discussion" => ++ "little social pressure"
+	"Do purpose statement" => ++ "reflect user interests"
+	"Do interweave content and discussion" => ++ "easily contribute"
+	"Do group memory recording" => ++ "separate analysis from ideation"
+	"Do emphasize group size and strength" => ++ "sign up for membership"
+	"Do promote competitoin among groups" => ++ "sign up for membership"
+	"Do discussion threading" => ++ "group discussion of material"
+	"Do moderation" => ++ "no moderation"
+	"Do reply support" => ++ "receive reply"
+	"Do moderation" => ++ "negative moderation"
+	"Do require comment labeling" => ++ "analyse comment topic"
+"Dummy"{ & ;
+	"May Community's assesment of plans be emphasized"
+	"May Descriptions, impacts, and models be understandable"
+	"May Niche group development be facilitated"
+	"May Plan comparison be facilitated"
+	"May Scientific accuracy and accessibility be balanced"
+	"May Selected plans have real policy influence"
+	"May User opinions be considered by plan makers"
+	"May Users be incentivized to participate"
+	"May Community be developed"
+	"May Usability be rigorous"
+	"May Deliverable creation be facilitated"
+	"May Accessibility be rigourous"
+	"May Normative ideals be met"
+	"May Information be managed effectively"
+	"May Participation be broad and sustainable"
+	"May System be personalizable"
+	"May Identity be mangeable"
+	"May Discussions be facilitated"
+	"May Activities be trustworthy"
+	"May summarization be simple"
+	"May awareness of others activities be supported"
+	"May determining relevent discussion to join be simple"
+	"May referring to others be simple"
+	"May foster discussion of differences"
+	"May hidden needs uncovered"
+	"May sensitive issues be surfaced"
+	"May decision making be facilitated"
+	"May agreement be sincere"
+	"May efficiently aggregate content"
+	"May relevant information be accesible"
+	"May tracking relevant messages be simple"
+	"May reduce effort"
+	"May ease of use"
+	"May involvement be increased"
+	"May usability"
+	"May content be engaging"
+	"May adoption"
+	"May effort be minimal"
+	"May activity be accessible"
+	"May reciprocal support"
+	"May social norms be emergent"
+	"May community be evolvable"
+	"May interaction partners be assessed"
+	"May build common ground"
+	"May sustained interaction"
+	"May foster group identity"
+	"May community bond be forged"
+	"May information sources be broad"
+	"May trust"
+	"May credibility be increased"
+	"May flame wars be avoided"
+	"May participation increased"
+	"May divergent thinking be facilitated"
+	"May increase user social ties"
+	"May be associated with status"
+	"May engagement"
+	"May participation"
+	"single repository of knowledge"
+	"portray social cues"
+	"consciously produce social cues"
+	"prioritize referenced messages"
+	"identify moral differences"
+	"verbal communication"
+	"comfortable communication"
+	"knowledge formalization"
+	"do not state disagreement"
+	"adhere to standard process"
+	"prioritize content"
+	"reply effort"
+	"expressive communication"
+	"express arguments formally"
+	"active participation"
+	"no horizontal scrolling"
+	"direct access to content of interest"
+	"natural interaction"
+	"help interpret messages"
+	"create safe spaces"
+	"scroll through conversation"
+	"awareness of shared representation"
+	"expand spaces for interaction"
+	"indicate user activity history"
+	"emphasize shared background"
+	"small messages"
+	"recognize user status"
+	"membership reminder"
+	"publish personal interests"
+	"complex search queries"
+	"emphasize alliance with reputable organziations"
+	"bridge f2f and online"
+	"indicate external credibility"
+	"little social pressure"
+	"reflect user interests"
+	"easily contribute"
+	"separate analysis from ideation"
+	"sign up for membership"
+	"group discussion of material"
+	"no moderation"
+	"receive reply"
+	"negative moderation"
+	"analyse comment topic"
+}

@@ -1,0 +1,486 @@
+<html>
+<head>
+<link rel="stylesheet" href="default.css" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+function tree_propagate(start, level){
+    contribution = start.value;
+    graph_parent = $(start).parent().parent();
+    siblings = $(graph_parent).children().children("select");
+    contributions = siblings.length;
+    contribution=0;
+    for(x=0; x<siblings.length; x++){
+        y = siblings[x].value;
+        checked = $(siblings[x]).parent().children("input[type=checkbox]").attr("checked");
+        if(checked){
+            node_value = $(siblings[x]).parent().get(0).className;
+            if(node_value){
+                //alert(node_value);
+                if(node_value=="hurts"){
+                 switch(y){
+	                case "AND":
+	                    contribution = contribution-2;
+	                    break;
+	                case "OR":
+	                    contribution = contribution-2;
+	                    break;
+	                case "++":
+	                    contribution = contribution-2;
+	                    break;
+	                case "+":
+	                    contribution = contribution-1;
+	                    break;
+	                case "?":
+	                    contribution = contribution+0;
+	                    break;
+	                case "-":
+	                    contribution = contribution+1;
+	                    break;
+	                case "--":
+	                    contribution = contribution+2;
+	                    break;
+                }   
+                }
+                else if(node_value=="conflict"){
+                    contribution=contribution;
+                }
+                else{
+                 switch(y){
+                    case "AND":
+                        contribution = contribution+2;
+                        break;
+                    case "OR":
+                        contribution = contribution+2;
+                        break;
+                    case "++":
+                        contribution = contribution+2;
+                        break;
+                    case "+":
+                        contribution = contribution+1;
+                        break;
+                    case "?":
+                        contribution = contribution+0;
+                        break;
+                    case "-":
+                        contribution = contribution-1;
+                        break;
+                    case "--":
+                        contribution = contribution-2;
+                        break;
+                }
+                }
+            }
+            else{
+                switch(y){
+                    case "AND":
+                        contribution = contribution+2;
+                        break;
+                    case "OR":
+                        contribution = contribution+2;
+                        break;
+                    case "++":
+                        contribution = contribution+2;
+                        break;
+                    case "+":
+                        contribution = contribution+1;
+                        break;
+                    case "?":
+                        contribution = contribution+0;
+                        break;
+                    case "-":
+                        contribution = contribution-1;
+                        break;
+                    case "--":
+                        contribution = contribution-2;
+                        break;
+                }
+            }
+        }
+    }
+    parent_class = graph_parent.parent().children(":header"); 
+    satisfaction_rate = contribution/contributions*100;
+
+    if(satisfaction_rate >= 30){
+    parent_class.get(0).className="helps";
+    }
+    else if(satisfaction_rate >= -30){
+    parent_class.get(0).className="conflict";
+    }
+    else if(satisfaction_rate <= -30){
+    parent_class.get(0).className="hurts";
+    }
+    
+    if(level==3){
+        //alert(parent_class.children("select").get(0).value);
+        tree_propagate(parent_class.children("select").get(0),2);
+    }
+}
+leaf_nodes=$(".alternatives_L3").children().children('select');
+last_trunks = $(".alternatives_L3");
+l=last_trunks.length;
+var first_leaf = new Array();
+var j = 0;
+for(i=0;i<l;i++){
+    y=last_trunks[i];
+    first_leaf[i] = $(y).children().children('select').get(0);
+}
+for(i=0;i<first_leaf.length;i++){
+z=first_leaf[i];
+tree_propagate(z,3);
+}
+
+function get_level(element){
+ if($(element).parent().parent().get(0).className == "alternatives_L2"){level=2;}
+     else if($(element).parent().parent().get(0).className == "alternatives_L3"){level=3;}
+  else{level=1;}
+return level
+}
+
+$("select").change(function() {
+  level = get_level(this);
+  switch(level){
+    case 2:
+        starting_node= $(this).parent().parent().children().children().children("select");
+        starting_node= starting_node.get(0);
+        tree_propagate(starting_node, 3);
+        break;
+    case 3:
+        starting_node = this;
+        tree_propagate(starting_node, 3);
+        break;
+  }
+});
+$("input[type=checkbox]").change( 
+    function() { 
+     level = get_level(this);
+     switch(level){
+        case 2:
+            starting_node= $(this).parent().parent().children().children().children().children("select");
+            starting_node= starting_node.get(0);
+            tree_propagate(starting_node, 3);
+            break;
+        case 3:
+            starting_node = this;
+            tree_propagate(starting_node, 3);
+            break;
+      } 
+    } 
+);
+
+});
+</script>
+</head>
+<body>
+<div class="alternatives_L1"><h5><input type="checkbox" checked name="">agreement be sincere
+		        <select name="" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option selected="" class="selected alternate">++</option>
+<option>+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </h5><div class="alternatives_L2"><h6><input type="checkbox" checked name="9">do not state disagreement
+		        <select name="" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option class="alternate">+</option>
+<option>?</option>
+<option selected="" class="selected alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="153">anonymity
+		        <select name="153" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option>+</option>
+<option class="alternate">?</option>
+<option selected="" class="selected">-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="10">face-to-face
+		        <select name="10" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option selected="" class="selected">++</option>
+<option class="alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="98">moderation
+		        <select name="98" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option selected="" class="selected">+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p></div></div><div class="alternatives_L2"><h6><input type="checkbox" checked name="184">identify moral differences
+		        <select name="" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option selected="" class="selected alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="225">incremental formalization
+		        <select name="225" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option selected="" class="selected">+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="185">profile outlines moral positoins
+		        <select name="185" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option selected="" class="selected">++</option>
+<option class="alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p></div></div><div class="alternatives_L2"><h6><input type="checkbox" checked name="145">negative moderation
+		        <select name="" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option>+</option>
+<option class="alternate">?</option>
+<option selected="" class="selected">-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="98">moderation
+		        <select name="98" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option selected="" class="selected">++</option>
+<option class="alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p></div></div></div>
+<div class="alternatives_L1"><h5><input type="checkbox" checked name="">awareness of others activities be supported
+		        <select name="" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option selected="" class="selected alternate">++</option>
+<option>+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </h5><div class="alternatives_L2"><h6><input type="checkbox" checked name="83">awareness of shared representation
+		        <select name="" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option selected="" class="selected alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="82">conversation stored as document
+		        <select name="82" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option selected="" class="selected alternate">++</option>
+<option>+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p></div></div><div class="alternatives_L2"><h6><input type="checkbox" checked name="75">consciously produce social cues
+		        <select name="" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option selected="" class="selected alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="77">virtual world
+		        <select name="77" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option selected="" class="selected alternate">++</option>
+<option>+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p></div></div><div class="alternatives_L2"><h6><input type="checkbox" checked name="107">indicate user activity history
+		        <select name="" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option selected="" class="selected alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="197">display user post count
+		        <select name="197" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option selected="" class="selected">+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="109">interaction archive
+		        <select name="109" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option selected="" class="selected">++</option>
+<option class="alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p></div></div><div class="alternatives_L2"><h6><input type="checkbox" checked name="103">perceive space as active
+		        <select name="" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option selected="" class="selected">+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="38">emphasize group size and strength
+		        <select name="38" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option selected="" class="selected alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p></div></div><div class="alternatives_L2"><h6><input type="checkbox" checked name="71">portray social cues
+		        <select name="" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option selected="" class="selected">+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </h6><div class="alternatives_L3"><p><input type="checkbox" checked name="153">anonymity
+		        <select name="153" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option class="alternate">+</option>
+<option>?</option>
+<option selected="" class="selected alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="101">develop user roles
+		        <select name="101" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option selected="" class="selected">+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="10">face-to-face
+		        <select name="10" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option selected="" class="selected alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="18">purpose statement
+		        <select name="18" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option class="alternate">++</option>
+<option selected="" class="selected">+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="144">reply support
+		        <select name="144" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option>++</option>
+<option selected="" class="selected alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="78">textual discussion
+		        <select name="78" class="alternatives_id">
+		        <option class="alternate">AND</option>
+<option>OR</option>
+<option selected="" class="selected alternate">++</option>
+<option>+</option>
+<option class="alternate">?</option>
+<option>-</option>
+<option class="alternate">--</option>
+
+	            </select>
+		     </p><p><input type="checkbox" checked name="70">video chat
+		        <select name="70" class="alternatives_id">
+		        <option>AND</option>
+<option class="alternate">OR</option>
+<option selected="" class="selected">++</option>
+<option class="alternate">+</option>
+<option>?</option>
+<option class="alternate">-</option>
+<option>--</option>
+
+	            </select>
+		     </p></div></div></div>
+</body>
+</html>
