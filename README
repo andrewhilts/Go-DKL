@@ -52,8 +52,10 @@ jqery.jsjQuery javascript library; powers treeview and eval
 project_model_build.php index for all project models for that project. Create new models based on project goal inclusions. View reports.
 project_model_report.phpCalculate reports regarding the commonly found publications or related design features.
 
+_________________________________________________
 
 *****High-Level Description***********
+_________________________________________________
 MySQL records to tree-list representation
 
 The below outlines the basic means by which retrieved rows from a database containing the following fields are converted into the tree-list representation.
