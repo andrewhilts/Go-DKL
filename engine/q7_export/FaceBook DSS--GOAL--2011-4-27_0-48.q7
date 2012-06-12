@@ -1,0 +1,85 @@
+
+"May Participation be incentivized"{ & ;
+	"May Accessibility be rigourous [Participation be incentivized]"
+}
+
+"May Accessibility be rigourous"{ & ;
+	"May Accessibility be rigourous [Participation be incentivized]"
+}
+
+	"May all voices be heard" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May avoid evaluation apprehension" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May awareness of others activities be supported" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May collective knowledge representation be supported" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May discussion be ethical" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May document has diverse viewpoints" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May flame wars be avoided" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May foster discussion of differences" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May foster group identity" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May increase content breadth" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May information sources be broad" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May opinions be diverse" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May opposing views be expressed" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May sensitive issues be surfaced" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May value of unique information maxmized" => + "May Accessibility be rigourous [Participation be incentivized]"
+//Actions - Goals
+
+//all voices be heard
+	"minorities can communicate" => + "May all voices be heard"
+//avoid evaluation apprehension
+	"all viewpoints considered" => - "May avoid evaluation apprehension"
+//awareness of others activities be supported
+	"awareness of shared representation" => - "May awareness of others activities be supported"
+//collective knowledge representation be supported
+	"awareness of shared representation" => - "May collective knowledge representation be supported"
+//discussion be ethical
+	"all viewpoints considered" => + "May discussion be ethical"
+//document has diverse viewpoints
+	"all viewpoints considered" => - "May document has diverse viewpoints"
+//flame wars be avoided
+	"all viewpoints considered" => - "May flame wars be avoided"
+//foster discussion of differences
+	"all viewpoints considered" => - "May foster discussion of differences"
+//foster group identity
+	"awareness of shared representation" => - "May foster group identity"
+//increase content breadth
+	"all viewpoints considered" => - "May increase content breadth"
+//information sources be broad
+	"all viewpoints considered" => - "May information sources be broad"
+//opinions be diverse
+	"all viewpoints considered" => - "May opinions be diverse"
+//opposing views be expressed
+	"all viewpoints considered" => - "May opposing views be expressed"
+//sensitive issues be surfaced
+	"all viewpoints considered" => - "May sensitive issues be surfaced"
+//value of unique information maxmized
+	"increase individual contributions" => + "May value of unique information maxmized"
+//Designs - Actions
+
+	"Do multilingual support" => ++ "minorities can communicate"
+	"Do multilingual support" => - "all viewpoints considered"
+	"Do multilingual support" => - "awareness of shared representation"
+	"Do multilingual support" => - "increase individual contributions"
+"Dummy"{ & ;
+	"May Participation be incentivized"
+	"May Accessibility be rigourous"
+	"May all voices be heard"
+	"May avoid evaluation apprehension"
+	"May awareness of others activities be supported"
+	"May collective knowledge representation be supported"
+	"May discussion be ethical"
+	"May document has diverse viewpoints"
+	"May flame wars be avoided"
+	"May foster discussion of differences"
+	"May foster group identity"
+	"May increase content breadth"
+	"May information sources be broad"
+	"May opinions be diverse"
+	"May opposing views be expressed"
+	"May sensitive issues be surfaced"
+	"May value of unique information maxmized"
+	"minorities can communicate"
+	"all viewpoints considered"
+	"awareness of shared representation"
+	"increase individual contributions"
+}

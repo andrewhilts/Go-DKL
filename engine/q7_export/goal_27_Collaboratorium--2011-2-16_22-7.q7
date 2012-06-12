@@ -1,0 +1,121 @@
+
+"Community's assesment of plans be emphasized"{ & ;
+	"normative [Community's assesment of plans be emphasized]"
+	"community building [Community's assesment of plans be emphasized]"
+	"information management [Community's assesment of plans be emphasized]"
+	"deliverable [Community's assesment of plans be emphasized]"
+	"accessibility [Community's assesment of plans be emphasized]"
+	"usability [Community's assesment of plans be emphasized]"
+}
+
+"normative"{ & ;
+	"normative [Community's assesment of plans be emphasized]"
+}
+
+"community building"{ & ;
+	"community building [Community's assesment of plans be emphasized]"
+}
+
+"information management"{ & ;
+	"information management [Community's assesment of plans be emphasized]"
+}
+
+"deliverable"{ & ;
+	"deliverable [Community's assesment of plans be emphasized]"
+}
+
+"accessibility"{ & ;
+	"accessibility [Community's assesment of plans be emphasized]"
+}
+
+"usability"{ & ;
+	"usability [Community's assesment of plans be emphasized]"
+}
+
+	"agreement be sincere" => + "normative [Community's assesment of plans be emphasized]"
+	"determining relevent discussion to join be simple" => + "community building [Community's assesment of plans be emphasized]"
+	"referring to others be simple" => + "community building [Community's assesment of plans be emphasized]"
+	"summarization be simple" => + "community building [Community's assesment of plans be emphasized]"
+	"awareness of others activities be supported" => + "community building [Community's assesment of plans be emphasized]"
+	"efficiently aggregate content" => + "information management [Community's assesment of plans be emphasized]"
+	"relevant information be accesible" => + "information management [Community's assesment of plans be emphasized]"
+	"foster discussion of differences" => + "deliverable [Community's assesment of plans be emphasized]"
+	"hidden needs uncovered" => + "deliverable [Community's assesment of plans be emphasized]"
+	"sensitive issues be surfaced" => + "deliverable [Community's assesment of plans be emphasized]"
+	"decision making be facilitated" => + "deliverable [Community's assesment of plans be emphasized]"
+	"awareness of others activities be supported" => + "accessibility [Community's assesment of plans be emphasized]"
+	"relevant information be accesible" => + "accessibility [Community's assesment of plans be emphasized]"
+	"determining relevent discussion to join be simple" => + "usability [Community's assesment of plans be emphasized]"
+	"referring to others be simple" => + "usability [Community's assesment of plans be emphasized]"
+	"summarization be simple" => + "usability [Community's assesment of plans be emphasized]"
+//Actions - Goals
+
+//agreement be sincere
+	"do not state disagreement" => - "agreement be sincere"
+//determining relevent discussion to join be simple
+	"single repository of knowledge" => - "determining relevent discussion to join be simple"
+	"prioritize referenced messages" => + "determining relevent discussion to join be simple"
+//referring to others be simple
+	"single repository of knowledge" => - "referring to others be simple"
+//summarization be simple
+	"single repository of knowledge" => - "summarization be simple"
+//awareness of others activities be supported
+	"portray social cues" => + "awareness of others activities be supported"
+	"consciously produce social cues" => + "awareness of others activities be supported"
+//efficiently aggregate content
+	"adhere to standard process" => + "efficiently aggregate content"
+//relevant information be accesible
+	"prioritize content" => + "relevant information be accesible"
+//foster discussion of differences
+	"identify moral differences" => + "foster discussion of differences"
+//hidden needs uncovered
+	"verbal communication" => + "hidden needs uncovered"
+//sensitive issues be surfaced
+	"comfortable communication" => + "sensitive issues be surfaced"
+//decision making be facilitated
+	"knowledge formalization" => + "decision making be facilitated"
+//Designs - Actions
+
+	"!@#@!face-to-face" => ++ "do not state disagreement"
+	"!@#@!threaded discussion" => ++ "single repository of knowledge"
+	"!@#@!implicit rating" => ++ "prioritize referenced messages"
+	"!@#@!video chat" => ++ "portray social cues"
+	"!@#@!textual discussion" => ++ "portray social cues"
+	"!@#@!virtual world" => ++ "consciously produce social cues"
+	"!@#@!group rule followers" => ++ "adhere to standard process"
+	"!@#@!advertise value of standards" => ++ "adhere to standard process"
+	"!@#@!collaborative filtering" => ++ "prioritize content"
+	"!@#@!profile outlines moral positoins" => ++ "identify moral differences"
+	"!@#@!face-to-face" => ++ "verbal communication"
+	"!@#@!anonymity" => ++ "comfortable communication"
+	"!@#@!incremental formalization" => ++ "knowledge formalization"
+"Dummy"{ & ;
+	"normative"
+	"community building"
+	"information management"
+	"deliverable"
+	"accessibility"
+	"usability"
+	"agreement be sincere"
+	"determining relevent discussion to join be simple"
+	"referring to others be simple"
+	"summarization be simple"
+	"awareness of others activities be supported"
+	"efficiently aggregate content"
+	"relevant information be accesible"
+	"foster discussion of differences"
+	"hidden needs uncovered"
+	"sensitive issues be surfaced"
+	"decision making be facilitated"
+	"do not state disagreement"
+	"single repository of knowledge"
+	"prioritize referenced messages"
+	"portray social cues"
+	"consciously produce social cues"
+	"adhere to standard process"
+	"prioritize content"
+	"identify moral differences"
+	"verbal communication"
+	"comfortable communication"
+	"knowledge formalization"
+}

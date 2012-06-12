@@ -1,0 +1,156 @@
+
+"May User opinions be considered by plan makers"{ & ;
+	"May Community be developed [User opinions be considered by plan makers]"
+	"May Discussions be facilitated [User opinions be considered by plan makers]"
+}
+
+"May Community's assesment of plans be emphasized"{ & ;
+	"May Community be developed [Community's assesment of plans be emphasized]"
+	"May Usability be rigorous [Community's assesment of plans be emphasized]"
+}
+
+"May Niche group development be facilitated"{ & ;
+	"May Community be developed [Niche group development be facilitated]"
+}
+
+"May Plan comparison be facilitated"{ & ;
+	"May Discussions be facilitated [Plan comparison be facilitated]"
+}
+
+"May Descriptions, impacts, and models be understandable"{ & ;
+	"May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+}
+
+"May Community be developed"{ & ;
+	"May Community be developed [User opinions be considered by plan makers]"
+	"May Community be developed [Community's assesment of plans be emphasized]"
+	"May Community be developed [Niche group development be facilitated]"
+}
+
+"May Discussions be facilitated"{ & ;
+	"May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May Discussions be facilitated [Plan comparison be facilitated]"
+}
+
+"May Usability be rigorous"{ & ;
+	"May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+}
+
+"May System be personalizable"{ & ;
+	"May System be personalizable [Descriptions, impacts, and models be understandable]"
+}
+
+	"May collective knowledge representation be supported" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May collective knowledge representation be supported" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May collective knowledge representation be supported" => + "May Community be developed [Niche group development be facilitated]"
+	"May community bond be forged" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May community bond be forged" => + "May Community be developed [Niche group development be facilitated]"
+	"May community bond be forged" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May determining relevent discussion to join be simple" => + "May Community be developed [Niche group development be facilitated]"
+	"May determining relevent discussion to join be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May determining relevent discussion to join be simple" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May foster group identity" => + "May Community be developed [Niche group development be facilitated]"
+	"May foster group identity" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May foster group identity" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May referring to others be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May referring to others be simple" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May referring to others be simple" => + "May Community be developed [Niche group development be facilitated]"
+	"May social norms be emergent" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May social norms be emergent" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May social norms be emergent" => + "May Community be developed [Niche group development be facilitated]"
+	"May summarization be simple" => + "May Community be developed [Niche group development be facilitated]"
+	"May summarization be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May summarization be simple" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May tracking relevant messages be simple" => + "May Community be developed [User opinions be considered by plan makers]"
+	"May tracking relevant messages be simple" => + "May Community be developed [Community's assesment of plans be emphasized]"
+	"May tracking relevant messages be simple" => + "May Community be developed [Niche group development be facilitated]"
+	"May collective knowledge representation be supported" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May collective knowledge representation be supported" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May community bond be forged" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May community bond be forged" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May determining relevent discussion to join be simple" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May determining relevent discussion to join be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May foster group identity" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May foster group identity" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May referring to others be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May referring to others be simple" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May social norms be emergent" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May social norms be emergent" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May summarization be simple" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May summarization be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May tracking relevant messages be simple" => + "May Discussions be facilitated [Plan comparison be facilitated]"
+	"May tracking relevant messages be simple" => + "May Discussions be facilitated [User opinions be considered by plan makers]"
+	"May collective knowledge representation be supported" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May community bond be forged" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May determining relevent discussion to join be simple" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May foster group identity" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May referring to others be simple" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May social norms be emergent" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May summarization be simple" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May tracking relevant messages be simple" => + "May System be personalizable [Descriptions, impacts, and models be understandable]"
+	"May collective knowledge representation be supported" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May collective knowledge representation be supported" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May community bond be forged" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May community bond be forged" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May determining relevent discussion to join be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May determining relevent discussion to join be simple" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May foster group identity" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May foster group identity" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May referring to others be simple" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May referring to others be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May social norms be emergent" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May social norms be emergent" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May summarization be simple" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May summarization be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+	"May tracking relevant messages be simple" => + "May Usability be rigorous [Community's assesment of plans be emphasized]"
+	"May tracking relevant messages be simple" => + "May Usability be rigorous [Descriptions, impacts, and models be understandable]"
+//Actions - Goals
+
+//collective knowledge representation be supported
+	"awareness of shared representation" => + "May collective knowledge representation be supported"
+	"single repository of knowledge" => + "May collective knowledge representation be supported"
+//community bond be forged
+	"awareness of shared representation" => + "May community bond be forged"
+//determining relevent discussion to join be simple
+	"single repository of knowledge" => - "May determining relevent discussion to join be simple"
+//foster group identity
+	"awareness of shared representation" => + "May foster group identity"
+//referring to others be simple
+	"single repository of knowledge" => - "May referring to others be simple"
+//social norms be emergent
+	"awareness of shared representation" => + "May social norms be emergent"
+	"scroll through conversation" => + "May social norms be emergent"
+//summarization be simple
+	"single repository of knowledge" => - "May summarization be simple"
+//tracking relevant messages be simple
+	"single repository of knowledge" => - "May tracking relevant messages be simple"
+//Designs - Actions
+
+	"Do conversation stored as document" => ++ "awareness of shared representation"
+	"Do conversation stored as document" => + "single repository of knowledge"
+	"Do threaded discussion" => ++ "single repository of knowledge"
+	"Do conversation stored as document" => ++ "scroll through conversation"
+"Dummy"{ & ;
+	"May User opinions be considered by plan makers"
+	"May Community's assesment of plans be emphasized"
+	"May Niche group development be facilitated"
+	"May Plan comparison be facilitated"
+	"May Descriptions, impacts, and models be understandable"
+	"May Community be developed"
+	"May Discussions be facilitated"
+	"May System be personalizable"
+	"May Usability be rigorous"
+	"May collective knowledge representation be supported"
+	"May community bond be forged"
+	"May determining relevent discussion to join be simple"
+	"May foster group identity"
+	"May referring to others be simple"
+	"May social norms be emergent"
+	"May summarization be simple"
+	"May tracking relevant messages be simple"
+	"awareness of shared representation"
+	"single repository of knowledge"
+	"scroll through conversation"
+}

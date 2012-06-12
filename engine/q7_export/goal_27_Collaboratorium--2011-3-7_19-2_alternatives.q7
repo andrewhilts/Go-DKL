@@ -1,0 +1,407 @@
+
+"May activity be accessible"{ & ;
+	"May 188 [activity be accessible]"
+}
+
+"May adoption"{ & ;
+	"May 230 [adoption]"
+}
+
+"May agreement be sincere"{ & ;
+	"May 8 [agreement be sincere]"
+}
+
+"May awareness of others activities be supported"{ & ;
+	"May 74 [awareness of others activities be supported]"
+}
+
+"May be associated with status"{ & ;
+	"May 196 [be associated with status]"
+}
+
+"May build common ground"{ & ;
+	"May 111 [build common ground]"
+}
+
+"May community bond be forged"{ & ;
+	"May 172 [community bond be forged]"
+}
+
+"May decision making be facilitated"{ & ;
+	"May 224 [decision making be facilitated]"
+}
+
+"May determining relevent discussion to join be simple"{ & ;
+	"May 51 [determining relevent discussion to join be simple]"
+}
+
+"May ease of use"{ & ;
+	"May 178 [ease of use]"
+}
+
+"May efficiently aggregate content"{ & ;
+	"May 45 [efficiently aggregate content]"
+}
+
+"May effort be minimal"{ & ;
+	"May 76 [effort be minimal]"
+}
+
+"May flame wars be avoided"{ & ;
+	"May 152 [flame wars be avoided]"
+}
+
+"May foster discussion of differences"{ & ;
+	"May 183 [foster discussion of differences]"
+}
+
+"May foster group identity"{ & ;
+	"May 189 [foster group identity]"
+}
+
+"May hidden needs uncovered"{ & ;
+	"May 208 [hidden needs uncovered]"
+}
+
+"May increase user social ties"{ & ;
+	"May 36 [increase user social ties]"
+}
+
+"May information sources be broad"{ & ;
+	"May 199 [information sources be broad]"
+}
+
+"May interaction partners be assessed"{ & ;
+	"May 108 [interaction partners be assessed]"
+}
+
+"May participation"{ & ;
+	"May 131 [participation]"
+}
+
+"May participation increased"{ & ;
+	"May 20 [participation increased]"
+}
+
+"May reciprocal support"{ & ;
+	"May 24 [reciprocal support]"
+}
+
+"May relevant information be accesible"{ & ;
+	"May 149 [relevant information be accesible]"
+}
+
+"May sensitive issues be surfaced"{ & ;
+	"May 214 [sensitive issues be surfaced]"
+}
+
+"May social norms be emergent"{ & ;
+	"May 81 [social norms be emergent]"
+}
+
+"May summarization be simple"{ & ;
+	"May 53 [summarization be simple]"
+}
+
+"May tracking relevant messages be simple"{ & ;
+	"May 54 [tracking relevant messages be simple]"
+}
+
+"May trust"{ & ;
+	"May 15 [trust]"
+}
+
+"May 188"{ & ;
+	"May 188 [activity be accessible]"
+}
+
+"May 230"{ & ;
+	"May 230 [adoption]"
+}
+
+"May 8"{ & ;
+	"May 8 [agreement be sincere]"
+}
+
+"May 74"{ & ;
+	"May 74 [awareness of others activities be supported]"
+}
+
+"May 196"{ & ;
+	"May 196 [be associated with status]"
+}
+
+"May 111"{ & ;
+	"May 111 [build common ground]"
+}
+
+"May 172"{ & ;
+	"May 172 [community bond be forged]"
+}
+
+"May 224"{ & ;
+	"May 224 [decision making be facilitated]"
+}
+
+"May 51"{ & ;
+	"May 51 [determining relevent discussion to join be simple]"
+}
+
+"May 178"{ & ;
+	"May 178 [ease of use]"
+}
+
+"May 45"{ & ;
+	"May 45 [efficiently aggregate content]"
+}
+
+"May 76"{ & ;
+	"May 76 [effort be minimal]"
+}
+
+"May 152"{ & ;
+	"May 152 [flame wars be avoided]"
+}
+
+"May 183"{ & ;
+	"May 183 [foster discussion of differences]"
+}
+
+"May 189"{ & ;
+	"May 189 [foster group identity]"
+}
+
+"May 208"{ & ;
+	"May 208 [hidden needs uncovered]"
+}
+
+"May 36"{ & ;
+	"May 36 [increase user social ties]"
+}
+
+"May 199"{ & ;
+	"May 199 [information sources be broad]"
+}
+
+"May 108"{ & ;
+	"May 108 [interaction partners be assessed]"
+}
+
+"May 131"{ & ;
+	"May 131 [participation]"
+}
+
+"May 20"{ & ;
+	"May 20 [participation increased]"
+}
+
+"May 24"{ & ;
+	"May 24 [reciprocal support]"
+}
+
+"May 149"{ & ;
+	"May 149 [relevant information be accesible]"
+}
+
+"May 214"{ & ;
+	"May 214 [sensitive issues be surfaced]"
+}
+
+"May 81"{ & ;
+	"May 81 [social norms be emergent]"
+}
+
+"May 53"{ & ;
+	"May 53 [summarization be simple]"
+}
+
+"May 54"{ & ;
+	"May 54 [tracking relevant messages be simple]"
+}
+
+"May 15"{ & ;
+	"May 15 [trust]"
+}
+
+	"May decision making be facilitated" => + "May 188 [activity be accessible]"
+	"May efficiently aggregate content" => + "May 188 [activity be accessible]"
+	"May hidden needs uncovered" => + "May 188 [activity be accessible]"
+	"May relevant information be accesible" => + "May 188 [activity be accessible]"
+	"May decision making be facilitated" => + "May 230 [adoption]"
+	"May sensitive issues be surfaced" => + "May 230 [adoption]"
+	"May decision making be facilitated" => + "May 8 [agreement be sincere]"
+	"May foster discussion of differences" => + "May 8 [agreement be sincere]"
+	"May hidden needs uncovered" => + "May 8 [agreement be sincere]"
+	"May sensitive issues be surfaced" => + "May 8 [agreement be sincere]"
+	"May hidden needs uncovered" => + "May 74 [awareness of others activities be supported]"
+	"May sensitive issues be surfaced" => + "May 74 [awareness of others activities be supported]"
+	"May foster discussion of differences" => + "May 196 [be associated with status]"
+	"May hidden needs uncovered" => + "May 196 [be associated with status]"
+	"May efficiently aggregate content" => + "May 111 [build common ground]"
+	"May foster discussion of differences" => + "May 111 [build common ground]"
+	"May relevant information be accesible" => + "May 111 [build common ground]"
+	"May sensitive issues be surfaced" => + "May 111 [build common ground]"
+	"May efficiently aggregate content" => + "May 172 [community bond be forged]"
+	"May foster discussion of differences" => + "May 172 [community bond be forged]"
+	"May decision making be facilitated" => + "May 224 [decision making be facilitated]"
+	"May efficiently aggregate content" => + "May 224 [decision making be facilitated]"
+	"May foster discussion of differences" => + "May 224 [decision making be facilitated]"
+	"May hidden needs uncovered" => + "May 224 [decision making be facilitated]"
+	"May relevant information be accesible" => + "May 224 [decision making be facilitated]"
+	"May decision making be facilitated" => + "May 51 [determining relevent discussion to join be simple]"
+	"May hidden needs uncovered" => + "May 51 [determining relevent discussion to join be simple]"
+	"May relevant information be accesible" => + "May 51 [determining relevent discussion to join be simple]"
+	"May awareness of others activities be supported" => + "May 178 [ease of use]"
+	"May decision making be facilitated" => + "May 178 [ease of use]"
+	"May efficiently aggregate content" => + "May 178 [ease of use]"
+	"May decision making be facilitated" => + "May 45 [efficiently aggregate content]"
+	"May efficiently aggregate content" => + "May 45 [efficiently aggregate content]"
+	"May hidden needs uncovered" => + "May 45 [efficiently aggregate content]"
+	"May relevant information be accesible" => + "May 45 [efficiently aggregate content]"
+	"May decision making be facilitated" => + "May 76 [effort be minimal]"
+	"May efficiently aggregate content" => + "May 76 [effort be minimal]"
+	"May sensitive issues be surfaced" => + "May 76 [effort be minimal]"
+	"May awareness of others activities be supported" => + "May 152 [flame wars be avoided]"
+	"May decision making be facilitated" => + "May 152 [flame wars be avoided]"
+	"May efficiently aggregate content" => + "May 152 [flame wars be avoided]"
+	"May foster discussion of differences" => + "May 152 [flame wars be avoided]"
+	"May hidden needs uncovered" => + "May 152 [flame wars be avoided]"
+	"May relevant information be accesible" => + "May 152 [flame wars be avoided]"
+	"May sensitive issues be surfaced" => + "May 152 [flame wars be avoided]"
+	"May decision making be facilitated" => + "May 183 [foster discussion of differences]"
+	"May hidden needs uncovered" => + "May 183 [foster discussion of differences]"
+	"May relevant information be accesible" => + "May 183 [foster discussion of differences]"
+	"May sensitive issues be surfaced" => + "May 183 [foster discussion of differences]"
+	"May efficiently aggregate content" => + "May 189 [foster group identity]"
+	"May decision making be facilitated" => + "May 208 [hidden needs uncovered]"
+	"May sensitive issues be surfaced" => + "May 208 [hidden needs uncovered]"
+	"May awareness of others activities be supported" => + "May 36 [increase user social ties]"
+	"May relevant information be accesible" => + "May 199 [information sources be broad]"
+	"May decision making be facilitated" => + "May 108 [interaction partners be assessed]"
+	"May foster discussion of differences" => + "May 108 [interaction partners be assessed]"
+	"May decision making be facilitated" => + "May 131 [participation]"
+	"May sensitive issues be surfaced" => + "May 131 [participation]"
+	"May decision making be facilitated" => + "May 20 [participation increased]"
+	"May sensitive issues be surfaced" => + "May 24 [reciprocal support]"
+	"May hidden needs uncovered" => + "May 149 [relevant information be accesible]"
+	"May sensitive issues be surfaced" => + "May 149 [relevant information be accesible]"
+	"May efficiently aggregate content" => + "May 214 [sensitive issues be surfaced]"
+	"May foster discussion of differences" => + "May 214 [sensitive issues be surfaced]"
+	"May relevant information be accesible" => + "May 214 [sensitive issues be surfaced]"
+	"May awareness of others activities be supported" => + "May 81 [social norms be emergent]"
+	"May decision making be facilitated" => + "May 53 [summarization be simple]"
+	"May efficiently aggregate content" => + "May 53 [summarization be simple]"
+	"May hidden needs uncovered" => + "May 53 [summarization be simple]"
+	"May relevant information be accesible" => + "May 53 [summarization be simple]"
+	"May determining relevent discussion to join be simple" => + "May 54 [tracking relevant messages be simple]"
+	"May hidden needs uncovered" => + "May 54 [tracking relevant messages be simple]"
+	"May decision making be facilitated" => + "May 15 [trust]"
+	"May sensitive issues be surfaced" => + "May 15 [trust]"
+//Actions - Goals
+
+//decision making be facilitated
+	"incremental formalization" =>  "May decision making be facilitated"
+//efficiently aggregate content
+	"advertise value of standards" =>  "May efficiently aggregate content"
+	"group rule followers" =>  "May efficiently aggregate content"
+//hidden needs uncovered
+	"face-to-face" =>  "May hidden needs uncovered"
+//relevant information be accesible
+	"collaborative filtering" =>  "May relevant information be accesible"
+//sensitive issues be surfaced
+	"anonymity" =>  "May sensitive issues be surfaced"
+//foster discussion of differences
+	"profile outlines moral positoins" =>  "May foster discussion of differences"
+//awareness of others activities be supported
+	"virtual world" =>  "May awareness of others activities be supported"
+	"textual discussion" =>  "May awareness of others activities be supported"
+//determining relevent discussion to join be simple
+	"implicit rating" =>  "May determining relevent discussion to join be simple"
+//Designs - Actions
+
+	"Do Community's assesment of plans be emphasized" =>  "incremental formalization"
+	"Do Community's assesment of plans be emphasized" =>  "advertise value of standards"
+	"Do Community's assesment of plans be emphasized" =>  "face-to-face"
+	"Do Community's assesment of plans be emphasized" =>  "collaborative filtering"
+	"Do Community's assesment of plans be emphasized" =>  "anonymity"
+	"Do Community's assesment of plans be emphasized" =>  "profile outlines moral positoins"
+	"Do Community's assesment of plans be emphasized" =>  "group rule followers"
+	"Do Community's assesment of plans be emphasized" =>  "virtual world"
+	"Do Community's assesment of plans be emphasized" =>  "textual discussion"
+	"Do Community's assesment of plans be emphasized" =>  "implicit rating"
+"Dummy"{ & ;
+	"May activity be accessible"
+	"May adoption"
+	"May agreement be sincere"
+	"May awareness of others activities be supported"
+	"May be associated with status"
+	"May build common ground"
+	"May community bond be forged"
+	"May decision making be facilitated"
+	"May determining relevent discussion to join be simple"
+	"May ease of use"
+	"May efficiently aggregate content"
+	"May effort be minimal"
+	"May flame wars be avoided"
+	"May foster discussion of differences"
+	"May foster group identity"
+	"May hidden needs uncovered"
+	"May increase user social ties"
+	"May information sources be broad"
+	"May interaction partners be assessed"
+	"May participation"
+	"May participation increased"
+	"May reciprocal support"
+	"May relevant information be accesible"
+	"May sensitive issues be surfaced"
+	"May social norms be emergent"
+	"May summarization be simple"
+	"May tracking relevant messages be simple"
+	"May trust"
+	"May 188"
+	"May 230"
+	"May 8"
+	"May 74"
+	"May 196"
+	"May 111"
+	"May 172"
+	"May 224"
+	"May 51"
+	"May 178"
+	"May 45"
+	"May 76"
+	"May 152"
+	"May 183"
+	"May 189"
+	"May 208"
+	"May 36"
+	"May 199"
+	"May 108"
+	"May 131"
+	"May 20"
+	"May 24"
+	"May 149"
+	"May 214"
+	"May 81"
+	"May 53"
+	"May 54"
+	"May 15"
+	"May decision making be facilitated"
+	"May efficiently aggregate content"
+	"May hidden needs uncovered"
+	"May relevant information be accesible"
+	"May sensitive issues be surfaced"
+	"May foster discussion of differences"
+	"May awareness of others activities be supported"
+	"May determining relevent discussion to join be simple"
+	"incremental formalization"
+	"advertise value of standards"
+	"face-to-face"
+	"collaborative filtering"
+	"anonymity"
+	"profile outlines moral positoins"
+	"group rule followers"
+	"virtual world"
+	"textual discussion"
+	"implicit rating"
+}

@@ -1,0 +1,279 @@
+
+"accessibility for content creators"{ & ;
+	"accessibility [accessibility for content creators]"
+	"discussion support [accessibility for content creators]"
+	"deliverable [accessibility for content creators]"
+	"engagement [accessibility for content creators]"
+}
+
+"Avoid developing and maintaining software"{ & ;
+	"trust [Avoid developing and maintaining software]"
+	"participation [Avoid developing and maintaining software]"
+}
+
+"be inclusive of all strata of citizens"{ & ;
+	"discussion support [be inclusive of all strata of citizens]"
+	"community building [be inclusive of all strata of citizens]"
+	"participation [be inclusive of all strata of citizens]"
+}
+
+"complement gov't communication with citizen communication"{ & ;
+	"information management [complement gov't communication with citizen communication]"
+	"accessibility [complement gov't communication with citizen communication]"
+	"normative [complement gov't communication with citizen communication]"
+}
+
+"facilitate citizen involvement"{ & ;
+	"deliverable [facilitate citizen involvement]"
+	"discussion support [facilitate citizen involvement]"
+}
+
+"increase citizen participation"{ & ;
+	"information management [increase citizen participation]"
+	"deliverable [increase citizen participation]"
+}
+
+"prioritize effective democracy over efficient government"{ & ;
+	"normative [prioritize effective democracy over efficient government]"
+	"community building [prioritize effective democracy over efficient government]"
+	"discussion support [prioritize effective democracy over efficient government]"
+}
+
+	"activity be accessible" => + "accessibility [accessibility for content creators]"
+	"effort be minimal" => + "accessibility [complement gov't communication with citizen communication]"
+	"flame wars be avoided" => + "discussion support [accessibility for content creators]"
+	"knowledge externalization be supported" => + "discussion support [accessibility for content creators]"
+	"emergent collaboration" => + "discussion support [accessibility for content creators]"
+	"real time collaboration" => + "discussion support [accessibility for content creators]"
+	"avoid evaluation apprehension" => + "discussion support [be inclusive of all strata of citizens]"
+	"flame wars be avoided" => + "discussion support [be inclusive of all strata of citizens]"
+	"emergent collaboration" => + "discussion support [be inclusive of all strata of citizens]"
+	"flame wars be avoided" => + "discussion support [facilitate citizen involvement]"
+	"knowledge externalization be supported" => + "discussion support [facilitate citizen involvement]"
+	"avoid evaluation apprehension" => + "discussion support [prioritize effective democracy over efficient government]"
+	"flame wars be avoided" => + "discussion support [prioritize effective democracy over efficient government]"
+	"decision making be facilitated" => + "deliverable [accessibility for content creators]"
+	"foster discussion of differences" => + "deliverable [accessibility for content creators]"
+	"foster discussion of differences" => + "deliverable [facilitate citizen involvement]"
+	"decision making be facilitated" => + "deliverable [facilitate citizen involvement]"
+	"hidden needs uncovered" => + "deliverable [facilitate citizen involvement]"
+	"decision making be facilitated" => + "deliverable [increase citizen participation]"
+	"selective dissemination of informaiton" => + "deliverable [increase citizen participation]"
+	"engagement" => + "engagement [accessibility for content creators]"
+	"trust" => + "trust [Avoid developing and maintaining software]"
+	"credibility be increased" => + "trust [Avoid developing and maintaining software]"
+	"community involvement" => + "participation [Avoid developing and maintaining software]"
+	"adoption" => + "participation [Avoid developing and maintaining software]"
+	"flame wars be avoided" => + "participation [Avoid developing and maintaining software]"
+	"flame wars be avoided" => + "participation [be inclusive of all strata of citizens]"
+	"sustained interaction" => + "participation [be inclusive of all strata of citizens]"
+	"build common ground" => + "community building [be inclusive of all strata of citizens]"
+	"community be sustainable" => + "community building [be inclusive of all strata of citizens]"
+	"community be evolvable" => + "community building [be inclusive of all strata of citizens]"
+	"sustained interaction" => + "community building [be inclusive of all strata of citizens]"
+	"social norms be emergent" => + "community building [prioritize effective democracy over efficient government]"
+	"community bond be forged" => + "community building [prioritize effective democracy over efficient government]"
+	"reciprocal support" => + "community building [prioritize effective democracy over efficient government]"
+	"group stability" => + "community building [prioritize effective democracy over efficient government]"
+	"sustained interaction" => + "community building [prioritize effective democracy over efficient government]"
+	"increase content breadth" => + "information management [complement gov't communication with citizen communication]"
+	"information sources be broad" => + "information management [complement gov't communication with citizen communication]"
+	"efficiently aggregate content" => + "information management [increase citizen participation]"
+	"discussion be ethical" => + "normative [complement gov't communication with citizen communication]"
+	"political efficacy" => + "normative [prioritize effective democracy over efficient government]"
+	"retain democratic nature" => + "normative [prioritize effective democracy over efficient government]"
+	"opinions be diverse" => + "normative [prioritize effective democracy over efficient government]"
+	"agreement be sincere" => + "normative [prioritize effective democracy over efficient government]"
+	"discussion be ethical" => + "normative [prioritize effective democracy over efficient government]"
+	"neutrality" => + "normative [prioritize effective democracy over efficient government]"
+//Actions - Goals
+
+//activity be accessible
+	"help interpret messages" => + "activity be accessible"
+//flame wars be avoided
+	"little social pressure" => - "flame wars be avoided"
+//knowledge externalization be supported
+	"argument presentation" => + "knowledge externalization be supported"
+//decision making be facilitated
+	"knowledge formalization" => + "decision making be facilitated"
+//foster discussion of differences
+	"identify moral differences" => + "foster discussion of differences"
+//emergent collaboration
+	"switch between contexts" => + "emergent collaboration"
+//engagement
+	"group discussion of material" => + "engagement"
+//real time collaboration
+	"synchronous collaboration request" => + "real time collaboration"
+//trust
+	"bridge f2f and online" => + "trust"
+	"emphasize alliance with reputable organziations" => + "trust"
+//community involvement
+	"comment" => + "community involvement"
+//adoption
+	"natural interaction" => + "adoption"
+//credibility be increased
+	"indicate external credibility" => + "credibility be increased"
+//avoid evaluation apprehension
+	"contribute opinion" => + "avoid evaluation apprehension"
+//build common ground
+	"emphasize shared background" => + "build common ground"
+//community be sustainable
+	"icommunicate community norms" => + "community be sustainable"
+//community be evolvable
+	"expand spaces for interaction" => + "community be evolvable"
+//sustained interaction
+	"recognize user status" => + "sustained interaction"
+	"small messages" => + "sustained interaction"
+//increase content breadth
+	"contribute to diverse topics" => + "increase content breadth"
+//effort be minimal
+	"consciously produce social cues" => - "effort be minimal"
+//discussion be ethical
+	"all viewpoints considered" => + "discussion be ethical"
+//information sources be broad
+	"complex search queries" => + "information sources be broad"
+//hidden needs uncovered
+	"verbal communication" => + "hidden needs uncovered"
+//efficiently aggregate content
+	"adhere to standard process" => + "efficiently aggregate content"
+//selective dissemination of informaiton
+	"limit access to opposing team" => + "selective dissemination of informaiton"
+//political efficacy
+	"sense of relevancy" => + "political efficacy"
+//social norms be emergent
+	"awareness of shared representation" => + "social norms be emergent"
+	"scroll through conversation" => + "social norms be emergent"
+//retain democratic nature
+	"evaluate content" => + "retain democratic nature"
+//opinions be diverse
+	"prioritize content" => - "opinions be diverse"
+//community bond be forged
+	"publish personal interests" => + "community bond be forged"
+//reciprocal support
+	"create safe spaces" => + "reciprocal support"
+//agreement be sincere
+	"do not state disagreement" => - "agreement be sincere"
+//group stability
+	"active groups" => - "group stability"
+//neutrality
+	"justify censorship" => + "neutrality"
+//Designs - Actions
+
+	"anonymous advice" => ++ "help interpret messages"
+	"textual discussion" => ++ "little social pressure"
+	"semantic icons" => ++ "argument presentation"
+	"incremental formalization" => ++ "knowledge formalization"
+	"profile outlines moral positoins" => ++ "identify moral differences"
+	"memo cards" => ++ "switch between contexts"
+	"discussion threading" => ++ "group discussion of material"
+	"monitor user online status" => ++ "synchronous collaboration request"
+	"local learning seminars" => ++ "bridge f2f and online"
+	"comment support" => ++ "comment"
+	"joint email" => ++ "emphasize alliance with reputable organziations"
+	"textual discussoin" => ++ "natural interaction"
+	"display association with reputable org" => ++ "indicate external credibility"
+	"anonymity" => ++ "contribute opinion"
+	"locate users on map" => ++ "emphasize shared background"
+	"moderation" => ++ "icommunicate community norms"
+	"support thread creation" => ++ "expand spaces for interaction"
+	"display user post count" => ++ "recognize user status"
+	"reply support" => ++ "small messages"
+	"emphasize divergent opinions" => ++ "contribute to diverse topics"
+	"avoid grouping similar people" => ++ "contribute to diverse topics"
+	"virtual world" => ++ "consciously produce social cues"
+	"provide equal opportunity to participate" => ++ "all viewpoints considered"
+	"qurery prothesis" => ++ "complex search queries"
+	"face-to-face" => ++ "verbal communication"
+	"advertise value of standards" => ++ "adhere to standard process"
+	"group rule followers" => ++ "adhere to standard process"
+	"access limitations" => ++ "limit access to opposing team"
+	"connect discussion to decision making" => ++ "sense of relevancy"
+	"conversation stored as document" => ++ "awareness of shared representation"
+	"require user endoresements" => ++ "evaluate content"
+	"conversation stored as document" => ++ "scroll through conversation"
+	"collaborative filtering" => ++ "prioritize content"
+	"user profiles" => ++ "publish personal interests"
+	"private discussion groups" => ++ "create safe spaces"
+	"face-to-face" => ++ "do not state disagreement"
+	"groups" => ++ "active groups"
+	"transparent moderation" => ++ "justify censorship"
+"Dummy"{ & ;
+	"accessibility"
+	"discussion support"
+	"deliverable"
+	"engagement"
+	"trust"
+	"participation"
+	"community building"
+	"information management"
+	"normative"
+	"activity be accessible"
+	"flame wars be avoided"
+	"knowledge externalization be supported"
+	"decision making be facilitated"
+	"foster discussion of differences"
+	"emergent collaboration"
+	"engagement"
+	"real time collaboration"
+	"trust"
+	"community involvement"
+	"adoption"
+	"credibility be increased"
+	"avoid evaluation apprehension"
+	"build common ground"
+	"community be sustainable"
+	"community be evolvable"
+	"sustained interaction"
+	"increase content breadth"
+	"effort be minimal"
+	"discussion be ethical"
+	"information sources be broad"
+	"hidden needs uncovered"
+	"efficiently aggregate content"
+	"selective dissemination of informaiton"
+	"political efficacy"
+	"social norms be emergent"
+	"retain democratic nature"
+	"opinions be diverse"
+	"community bond be forged"
+	"reciprocal support"
+	"agreement be sincere"
+	"group stability"
+	"neutrality"
+	"help interpret messages"
+	"little social pressure"
+	"argument presentation"
+	"knowledge formalization"
+	"identify moral differences"
+	"switch between contexts"
+	"group discussion of material"
+	"synchronous collaboration request"
+	"bridge f2f and online"
+	"comment"
+	"emphasize alliance with reputable organziations"
+	"natural interaction"
+	"indicate external credibility"
+	"contribute opinion"
+	"emphasize shared background"
+	"icommunicate community norms"
+	"expand spaces for interaction"
+	"recognize user status"
+	"small messages"
+	"contribute to diverse topics"
+	"consciously produce social cues"
+	"all viewpoints considered"
+	"complex search queries"
+	"verbal communication"
+	"adhere to standard process"
+	"limit access to opposing team"
+	"sense of relevancy"
+	"awareness of shared representation"
+	"evaluate content"
+	"scroll through conversation"
+	"prioritize content"
+	"publish personal interests"
+	"create safe spaces"
+	"do not state disagreement"
+	"active groups"
+	"justify censorship"
+}

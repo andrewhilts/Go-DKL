@@ -1,0 +1,377 @@
+
+"May Degree of consensus be obtained"{ & ;
+	"May Discussions be facilitated [Degree of consensus be obtained]"
+	"May Deliverable creation be facilitated [Degree of consensus be obtained]"
+	"May Normative ideals be met [Degree of consensus be obtained]"
+}
+
+"May External information be considered"{ & ;
+	"May Information be managed effectively [External information be considered]"
+	"May Discussions be facilitated [External information be considered]"
+}
+
+"May Participation be incentivized"{ & ;
+	"May Accessibility be rigourous [Participation be incentivized]"
+	"May Community be developed [Participation be incentivized]"
+	"May Participation be broad and sustainable [Participation be incentivized]"
+}
+
+"May Social pressures be reduced"{ & ;
+	"May Discussions be facilitated [Social pressures be reduced]"
+	"May Identity be mangeable [Social pressures be reduced]"
+	"May Normative ideals be met [Social pressures be reduced]"
+	"May Group activity be facilitated [Social pressures be reduced]"
+}
+
+"May Discussions be facilitated"{ & ;
+	"May Discussions be facilitated [Degree of consensus be obtained]"
+	"May Discussions be facilitated [External information be considered]"
+	"May Discussions be facilitated [Social pressures be reduced]"
+}
+
+"May Deliverable creation be facilitated"{ & ;
+	"May Deliverable creation be facilitated [Degree of consensus be obtained]"
+}
+
+"May Normative ideals be met"{ & ;
+	"May Normative ideals be met [Degree of consensus be obtained]"
+	"May Normative ideals be met [Social pressures be reduced]"
+}
+
+"May Information be managed effectively"{ & ;
+	"May Information be managed effectively [External information be considered]"
+}
+
+"May Accessibility be rigourous"{ & ;
+	"May Accessibility be rigourous [Participation be incentivized]"
+}
+
+"May Community be developed"{ & ;
+	"May Community be developed [Participation be incentivized]"
+}
+
+"May Participation be broad and sustainable"{ & ;
+	"May Participation be broad and sustainable [Participation be incentivized]"
+}
+
+"May Identity be mangeable"{ & ;
+	"May Identity be mangeable [Social pressures be reduced]"
+}
+
+"May Group activity be facilitated"{ & ;
+	"May Group activity be facilitated [Social pressures be reduced]"
+}
+
+	"May decision be reached" => + "May Discussions be facilitated [Degree of consensus be obtained]"
+	"May emergent collaboration" => + "May Discussions be facilitated [Degree of consensus be obtained]"
+	"May Knowledge gained" => + "May Discussions be facilitated [Degree of consensus be obtained]"
+	"May summarization be simple" => + "May Discussions be facilitated [Degree of consensus be obtained]"
+	"May tracking relevant messages be simple" => + "May Discussions be facilitated [External information be considered]"
+	"May avoid evaluation apprehension" => + "May Discussions be facilitated [Social pressures be reduced]"
+	"May flame wars be avoided" => + "May Discussions be facilitated [Social pressures be reduced]"
+	"May decision making be facilitated" => + "May Deliverable creation be facilitated [Degree of consensus be obtained]"
+	"May foster discussion of differences" => + "May Deliverable creation be facilitated [Degree of consensus be obtained]"
+	"May sensitive issues be surfaced" => + "May Deliverable creation be facilitated [Degree of consensus be obtained]"
+	"May document has diverse viewpoints" => + "May Normative ideals be met [Degree of consensus be obtained]"
+	"May diversity of opinion" => + "May Normative ideals be met [Social pressures be reduced]"
+	"May neutrality" => + "May Normative ideals be met [Social pressures be reduced]"
+	"May opinions be diverse" => + "May Normative ideals be met [Social pressures be reduced]"
+	"May opposing views be expressed" => + "May Normative ideals be met [Social pressures be reduced]"
+	"May reflection be encouraged" => + "May Normative ideals be met [Social pressures be reduced]"
+	"May sensitive issues be surfaced" => + "May Normative ideals be met [Social pressures be reduced]"
+	"May collective knowledge representation be supported" => + "May Information be managed effectively [External information be considered]"
+	"May increase content breadth" => + "May Information be managed effectively [External information be considered]"
+	"May information sources be broad" => + "May Information be managed effectively [External information be considered]"
+	"May relevant information be accesible" => + "May Information be managed effectively [External information be considered]"
+	"May value of unique information maxmized" => + "May Information be managed effectively [External information be considered]"
+	"May awareness of others activities be supported" => + "May Accessibility be rigourous [Participation be incentivized]"
+	"May build common ground" => + "May Community be developed [Participation be incentivized]"
+	"May determining relevent discussion to join be simple" => + "May Community be developed [Participation be incentivized]"
+	"May referring to others be simple" => + "May Community be developed [Participation be incentivized]"
+	"May summarization be simple" => + "May Community be developed [Participation be incentivized]"
+	"May tracking relevant messages be simple" => + "May Community be developed [Participation be incentivized]"
+	"May catalyze discussion" => + "May Participation be broad and sustainable [Participation be incentivized]"
+	"May contribution be acknowledged" => + "May Participation be broad and sustainable [Participation be incentivized]"
+	"May legitimacy to respond improved" => + "May Participation be broad and sustainable [Participation be incentivized]"
+	"May build common ground" => + "May Identity be mangeable [Social pressures be reduced]"
+	"May foster group identity" => + "May Identity be mangeable [Social pressures be reduced]"
+	"May sustained interaction" => + "May Group activity be facilitated [Social pressures be reduced]"
+//Actions - Goals
+
+//decision be reached
+	"provide fact-based arguments" => + "May decision be reached"
+	"Vote" => + "May decision be reached"
+//decision making be facilitated
+	"expand spaces for interaction" => - "May decision making be facilitated"
+	"express arguments formally" => - "May decision making be facilitated"
+	"help interpret messages" => - "May decision making be facilitated"
+	"identify moral differences" => - "May decision making be facilitated"
+	"integrate into single document" => - "May decision making be facilitated"
+	"prioritize content" => - "May decision making be facilitated"
+//document has diverse viewpoints
+	"all viewpoints considered" => - "May document has diverse viewpoints"
+	"contribute opinion" => - "May document has diverse viewpoints"
+	"integrate into single document" => + "May document has diverse viewpoints"
+//emergent collaboration
+	"expand spaces for interaction" => - "May emergent collaboration"
+	"switch between contexts" => + "May emergent collaboration"
+//foster discussion of differences
+	"all viewpoints considered" => - "May foster discussion of differences"
+	"do not state disagreement" => - "May foster discussion of differences"
+	"identify moral differences" => + "May foster discussion of differences"
+	"Vote" => - "May foster discussion of differences"
+//Knowledge gained
+	"provide fact-based arguments" => + "May Knowledge gained"
+//sensitive issues be surfaced
+	"all viewpoints considered" => - "May sensitive issues be surfaced"
+	"build on past ideas" => - "May sensitive issues be surfaced"
+	"comfortable communication" => + "May sensitive issues be surfaced"
+	"little social pressure" => - "May sensitive issues be surfaced"
+	"shared story making" => - "May sensitive issues be surfaced"
+//summarization be simple
+	"express arguments formally" => + "May summarization be simple"
+	"help interpret messages" => + "May summarization be simple"
+	"integrate into single document" => - "May summarization be simple"
+	"prioritize content" => - "May summarization be simple"
+	"Vote" => - "May summarization be simple"
+//collective knowledge representation be supported
+	"awareness of shared representation" => - "May collective knowledge representation be supported"
+	"express arguments formally" => - "May collective knowledge representation be supported"
+	"group discussion of material" => - "May collective knowledge representation be supported"
+	"integrate into single document" => - "May collective knowledge representation be supported"
+//increase content breadth
+	"all viewpoints considered" => - "May increase content breadth"
+	"Discussions are thematically grouped" => - "May increase content breadth"
+	"prioritize content" => - "May increase content breadth"
+//information sources be broad
+	"all viewpoints considered" => - "May information sources be broad"
+	"complex search queries" => + "May information sources be broad"
+//relevant information be accesible
+	"Discussions are thematically grouped" => - "May relevant information be accesible"
+	"do not state disagreement" => - "May relevant information be accesible"
+	"prioritize content" => + "May relevant information be accesible"
+	"Relevant category be found" => - "May relevant information be accesible"
+//tracking relevant messages be simple
+	"prioritize referenced messages" => - "May tracking relevant messages be simple"
+//value of unique information maxmized
+	"increase individual contributions" => + "May value of unique information maxmized"
+	"shared story making" => - "May value of unique information maxmized"
+//awareness of others activities be supported
+	"awareness of shared representation" => + "May awareness of others activities be supported"
+	"portray social cues" => + "May awareness of others activities be supported"
+//build common ground
+	"acceptance" => + "May build common ground"
+	"build on past ideas" => - "May build common ground"
+	"comfortable communication" => - "May build common ground"
+	"group discussion of material" => + "May build common ground"
+	"sense of relevancy" => + "May build common ground"
+//catalyze discussion
+	"earlier response" => + "May catalyze discussion"
+//contribution be acknowledged
+	"build on past ideas" => + "May contribution be acknowledged"
+//determining relevent discussion to join be simple
+	"Discussions are thematically grouped" => + "May determining relevent discussion to join be simple"
+	"help interpret messages" => + "May determining relevent discussion to join be simple"
+	"prioritize content" => - "May determining relevent discussion to join be simple"
+	"prioritize referenced messages" => + "May determining relevent discussion to join be simple"
+	"Relevant category be found" => + "May determining relevent discussion to join be simple"
+//legitimacy to respond improved
+	"earlier response" => - "May legitimacy to respond improved"
+	"user is invited" => + "May legitimacy to respond improved"
+//referring to others be simple
+	"build on past ideas" => + "May referring to others be simple"
+//avoid evaluation apprehension
+	"all viewpoints considered" => - "May avoid evaluation apprehension"
+	"contribute opinion" => + "May avoid evaluation apprehension"
+	"create safe spaces" => - "May avoid evaluation apprehension"
+	"distinguish members" => - "May avoid evaluation apprehension"
+	"do not state disagreement" => - "May avoid evaluation apprehension"
+	"expand spaces for interaction" => - "May avoid evaluation apprehension"
+	"group discussion of material" => - "May avoid evaluation apprehension"
+	"identify moral differences" => - "May avoid evaluation apprehension"
+	"little social pressure" => - "May avoid evaluation apprehension"
+	"prioritize content" => - "May avoid evaluation apprehension"
+//diversity of opinion
+	"reply" => + "May diversity of opinion"
+//flame wars be avoided
+	"acceptance" => - "May flame wars be avoided"
+	"all viewpoints considered" => - "May flame wars be avoided"
+	"comfortable communication" => - "May flame wars be avoided"
+	"create safe spaces" => - "May flame wars be avoided"
+	"do not state disagreement" => - "May flame wars be avoided"
+	"identify moral differences" => - "May flame wars be avoided"
+	"little social pressure" => - "May flame wars be avoided"
+	"receive reply" => - "May flame wars be avoided"
+//foster group identity
+	"awareness of shared representation" => - "May foster group identity"
+	"build on past ideas" => - "May foster group identity"
+//neutrality
+	"do not state disagreement" => + "May neutrality"
+	"evaluate information equitably" => + "May neutrality"
+//opinions be diverse
+	"all viewpoints considered" => - "May opinions be diverse"
+	"contribute opinion" => - "May opinions be diverse"
+	"Discussions are thematically grouped" => - "May opinions be diverse"
+	"evaluate information equitably" => + "May opinions be diverse"
+	"group discussion of material" => - "May opinions be diverse"
+	"identify moral differences" => + "May opinions be diverse"
+	"little social pressure" => - "May opinions be diverse"
+	"prioritize content" => - "May opinions be diverse"
+	"provide fact-based arguments" => + "May opinions be diverse"
+	"user is invited" => + "May opinions be diverse"
+//opposing views be expressed
+	"all viewpoints considered" => - "May opposing views be expressed"
+	"build on past ideas" => - "May opposing views be expressed"
+	"do not state disagreement" => - "May opposing views be expressed"
+	"express arguments formally" => + "May opposing views be expressed"
+	"little social pressure" => + "May opposing views be expressed"
+	"prioritize content" => - "May opposing views be expressed"
+	"shared story making" => - "May opposing views be expressed"
+	"user is invited" => - "May opposing views be expressed"
+//reflection be encouraged
+	"Discussions are thematically grouped" => + "May reflection be encouraged"
+//sustained interaction
+	"expand spaces for interaction" => - "May sustained interaction"
+	"receive reply" => - "May sustained interaction"
+	"sense of relevancy" => - "May sustained interaction"
+//Designs - Actions
+
+	"Do Collaborative statement writing" => ++ "provide fact-based arguments"
+	"Do Secret ballot" => ++ "Vote"
+	"Do support thread creation" => ++ "expand spaces for interaction"
+	"Do reply support" => - "express arguments formally"
+	"Do Collaborative statement writing" => - "express arguments formally"
+	"Do mandate search for related ideas" => + "help interpret messages"
+	"Do emphaize uniqueness of contribution" => + "help interpret messages"
+	"Do collaborative filtering" => + "help interpret messages"
+	"Do emphasize divergent opinions" => + "identify moral differences"
+	"Do mandate search for related ideas" => ++ "integrate into single document"
+	"Do Collaborative statement writing" => + "integrate into single document"
+	"Do discussion threading" => - "prioritize content"
+	"Do collaborative filtering" => ++ "prioritize content"
+	"Do mandate search for related ideas" => + "all viewpoints considered"
+	"Do invite random users to respond" => + "all viewpoints considered"
+	"Do emphasize divergent opinions" => + "all viewpoints considered"
+	"Do emphaize uniqueness of contribution" => + "all viewpoints considered"
+	"Do collaborative filtering" => - "all viewpoints considered"
+	"Do emphaize uniqueness of contribution" => + "contribute opinion"
+	"Do anonymity" => ++ "contribute opinion"
+	"Do memo cards" => ++ "switch between contexts"
+	"Do emphasize divergent opinions" => - "do not state disagreement"
+	"Do anonymity" => + "do not state disagreement"
+	"Do topic descriptors for post" => + "build on past ideas"
+	"Do encourage quoting previous posts" => + "build on past ideas"
+	"Do emphasize divergent opinions" => - "comfortable communication"
+	"Do connect discussion to decision making" => + "comfortable communication"
+	"Do compare users with their peers" => - "comfortable communication"
+	"Do collaborative filtering" => - "comfortable communication"
+	"Do anonymity" => ++ "comfortable communication"
+	"Do textual discussion" => ++ "little social pressure"
+	"Do collaborative filtering" => - "little social pressure"
+	"Do Secret ballot" => - "shared story making"
+	"Do Collaborative statement writing" => + "shared story making"
+	"Do Collaborative statement writing" => + "awareness of shared representation"
+	"Do discussion threading" => ++ "group discussion of material"
+	"Do topic descriptors for post" => + "Discussions are thematically grouped"
+	"Do qurery prothesis" => ++ "complex search queries"
+	"Do topic descriptors for post" => + "Relevant category be found"
+	"Do implicit rating" => ++ "prioritize referenced messages"
+	"Do support peer evaluation" => ++ "increase individual contributions"
+	"Do prominent display of contributions" => ++ "increase individual contributions"
+	"Do emphaize uniqueness of contribution" => ++ "increase individual contributions"
+	"Do textual discussion" => + "portray social cues"
+	"Do reply support" => + "portray social cues"
+	"Do anonymity" => - "portray social cues"
+	"Do connect discussion to decision making" => + "acceptance"
+	"Do topic descriptors for post" => + "sense of relevancy"
+	"Do connect discussion to decision making" => ++ "sense of relevancy"
+	"Do invite random users to respond" => ++ "earlier response"
+	"Do invite random users to respond" => ++ "user is invited"
+	"Do compare users with their peers" => - "user is invited"
+	"Do compare users with their peers" => - "create safe spaces"
+	"Do anonymity" => - "create safe spaces"
+	"Do locate users on map" => + "distinguish members"
+	"Do compare users with their peers" => + "distinguish members"
+	"Do threaded discussion" => ++ "reply"
+	"Do encourage quoting previous posts" => + "reply"
+	"Do reply support" => ++ "receive reply"
+	"Do Secret ballot" => + "evaluate information equitably"
+	"Do invite random users to respond" => + "evaluate information equitably"
+"Dummy"{ & ;
+	"May Degree of consensus be obtained"
+	"May External information be considered"
+	"May Participation be incentivized"
+	"May Social pressures be reduced"
+	"May Discussions be facilitated"
+	"May Deliverable creation be facilitated"
+	"May Normative ideals be met"
+	"May Information be managed effectively"
+	"May Accessibility be rigourous"
+	"May Community be developed"
+	"May Participation be broad and sustainable"
+	"May Identity be mangeable"
+	"May Group activity be facilitated"
+	"May decision be reached"
+	"May decision making be facilitated"
+	"May document has diverse viewpoints"
+	"May emergent collaboration"
+	"May foster discussion of differences"
+	"May Knowledge gained"
+	"May sensitive issues be surfaced"
+	"May summarization be simple"
+	"May collective knowledge representation be supported"
+	"May increase content breadth"
+	"May information sources be broad"
+	"May relevant information be accesible"
+	"May tracking relevant messages be simple"
+	"May value of unique information maxmized"
+	"May awareness of others activities be supported"
+	"May build common ground"
+	"May catalyze discussion"
+	"May contribution be acknowledged"
+	"May determining relevent discussion to join be simple"
+	"May legitimacy to respond improved"
+	"May referring to others be simple"
+	"May avoid evaluation apprehension"
+	"May diversity of opinion"
+	"May flame wars be avoided"
+	"May foster group identity"
+	"May neutrality"
+	"May opinions be diverse"
+	"May opposing views be expressed"
+	"May reflection be encouraged"
+	"May sustained interaction"
+	"provide fact-based arguments"
+	"Vote"
+	"expand spaces for interaction"
+	"express arguments formally"
+	"help interpret messages"
+	"identify moral differences"
+	"integrate into single document"
+	"prioritize content"
+	"all viewpoints considered"
+	"contribute opinion"
+	"switch between contexts"
+	"do not state disagreement"
+	"build on past ideas"
+	"comfortable communication"
+	"little social pressure"
+	"shared story making"
+	"awareness of shared representation"
+	"group discussion of material"
+	"Discussions are thematically grouped"
+	"complex search queries"
+	"Relevant category be found"
+	"prioritize referenced messages"
+	"increase individual contributions"
+	"portray social cues"
+	"acceptance"
+	"sense of relevancy"
+	"earlier response"
+	"user is invited"
+	"create safe spaces"
+	"distinguish members"
+	"reply"
+	"receive reply"
+	"evaluate information equitably"
+}

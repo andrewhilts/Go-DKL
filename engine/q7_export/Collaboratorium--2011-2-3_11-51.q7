@@ -1,0 +1,324 @@
+
+"Descriptions, impacts, and models be understandable"{ & ;
+	"accessibility"
+	"usability"
+	"personalization"
+	"participation"
+}
+
+"Scientific accuracy and accessibility be balanced"{ & ;
+	"accessibility"
+	"information_management"
+	"trust"
+}
+
+"User opinions be considered by plan makers"{ & ;
+	"community_building"
+	"discussion_support"
+	"participation"
+	"group_support"
+}
+
+"Niche group development be facilitated"{ & ;
+	"community_building"
+	"group_support"
+	"identity"
+}
+
+"Community's assesment of plans be emphasized"{ & ;
+	"community_building"
+	"deliverable"
+	"information_management"
+}
+
+"Plan comparison be facilitated"{ & ;
+	"discussion_support"
+	"community_building"
+	"deliverable"
+	"information_management"
+}
+
+"Users be incentivized to participate"{ & ;
+	"participation"
+	"community_building"
+	"engagement"
+}
+
+"Selected plans have real policy influence"{ & ;
+	"deliverable"
+}
+
+	"effort be minimal" => + "accessibility"
+	"relevant information be accesible" => + "accessibility"
+	"activity be accessible" => + "accessibility"
+	"awareness of others activities be supported" => + "community_building"
+	"community bond be forged" => + "community_building"
+	"tracking relevant messages be simple" => + "community_building"
+	"summarization be simple" => + "community_building"
+	"referring to others be simple" => + "community_building"
+	"determining relevent discussion to join be simple" => + "community_building"
+	"community be evolvable" => + "community_building"
+	"sustained interaction" => + "community_building"
+	"increase user social ties" => + "community_building"
+	"reciprocal support" => + "community_building"
+	"build common ground" => + "community_building"
+	"interaction partners be assessed" => + "community_building"
+	"be associated with status" => + "community_building"
+	"foster group identity" => + "community_building"
+	"social norms be emergent" => + "community_building"
+	"summarization be simple" => + "discussion_support"
+	"referring to others be simple" => + "discussion_support"
+	"determining relevent discussion to join be simple" => + "discussion_support"
+	"tracking relevant messages be simple" => + "discussion_support"
+	"flame wars be avoided" => + "discussion_support"
+	"summarization be simple" => + "usability"
+	"referring to others be simple" => + "usability"
+	"determining relevent discussion to join be simple" => + "usability"
+	"tracking relevant messages be simple" => + "usability"
+	"reduce effort" => + "usability"
+	"adoption" => + "usability"
+	"usability" => + "usability"
+	"ease of use" => + "usability"
+	"summarization be simple" => + "personalization"
+	"referring to others be simple" => + "personalization"
+	"flame wars be avoided" => + "participation"
+	"ease of use" => + "participation"
+	"participation" => + "participation"
+	"participation increased" => + "participation"
+	"content be engaging" => + "participation"
+	"involvement be increased" => + "participation"
+	"sustained interaction" => + "group_support"
+	"information sources be broad" => + "information_management"
+	"efficiently aggregate content" => + "information_management"
+	"relevant information be accesible" => + "information_management"
+	"foster discussion of differences" => + "deliverable"
+	"content be engaging" => + "deliverable"
+	"decision making be facilitated" => + "deliverable"
+	"hidden needs uncovered" => + "deliverable"
+	"sensitive issues be surfaced" => + "deliverable"
+	"build common ground" => + "identity"
+	"foster group identity" => + "identity"
+	"trust" => + "trust"
+	"credibility be increased" => + "trust"
+	"engagement" => + "engagement"
+//Actions - Goals
+
+//effort be minimal
+	"consciously produce social cues" => - "effort be minimal"
+//awareness of others activities be supported
+	"consciously produce social cues" => + "awareness of others activities be supported"
+	"portray social cues" => + "awareness of others activities be supported"
+//community bond be forged
+	"publish personal interests" => + "community bond be forged"
+//summarization be simple
+	"single repository of knowledge" => - "summarization be simple"
+//tracking relevant messages be simple
+	"single repository of knowledge" => - "tracking relevant messages be simple"
+//referring to others be simple
+	"single repository of knowledge" => - "referring to others be simple"
+//determining relevent discussion to join be simple
+	"single repository of knowledge" => - "determining relevent discussion to join be simple"
+	"prioritize referenced messages" => + "determining relevent discussion to join be simple"
+//reduce effort
+	"reply effort" => - "reduce effort"
+//adoption
+	"natural interaction" => + "adoption"
+//flame wars be avoided
+	"little social pressure" => - "flame wars be avoided"
+//community be evolvable
+	"expand spaces for interaction" => + "community be evolvable"
+//usability
+	"no horizontal scrolling" => + "usability"
+//ease of use
+	"expressive communication" => + "ease of use"
+	"express arguments formally" => - "ease of use"
+//participation
+	"analyse comment topic" => - "participation"
+	"receive reply" => + "participation"
+	"no moderation" => - "participation"
+	"negative moderation" => + "participation"
+//sustained interaction
+	"small messages" => + "sustained interaction"
+	"recognize user status" => + "sustained interaction"
+//information sources be broad
+	"complex search queries" => + "information sources be broad"
+//participation increased
+	"reflect user interests" => + "participation increased"
+	"easily contribute" => + "participation increased"
+//increase user social ties
+	"sign up for membership" => + "increase user social ties"
+//foster discussion of differences
+	"identify moral differences" => + "foster discussion of differences"
+//reciprocal support
+	"create safe spaces" => + "reciprocal support"
+//content be engaging
+	"direct access to content of interest" => + "content be engaging"
+//build common ground
+	"emphasize shared background" => + "build common ground"
+//trust
+	"bridge f2f and online" => + "trust"
+	"emphasize alliance with reputable organziations" => + "trust"
+//interaction partners be assessed
+	"indicate user activity history" => + "interaction partners be assessed"
+//decision making be facilitated
+	"knowledge formalization" => + "decision making be facilitated"
+//efficiently aggregate content
+	"adhere to standard process" => + "efficiently aggregate content"
+//hidden needs uncovered
+	"verbal communication" => + "hidden needs uncovered"
+//be associated with status
+	"recognize user status" => + "be associated with status"
+//foster group identity
+	"membership reminder" => + "foster group identity"
+//credibility be increased
+	"indicate external credibility" => + "credibility be increased"
+//engagement
+	"group discussion of material" => + "engagement"
+//involvement be increased
+	"active participation" => + "involvement be increased"
+//social norms be emergent
+	"awareness of shared representation" => + "social norms be emergent"
+	"scroll through conversation" => + "social norms be emergent"
+//relevant information be accesible
+	"prioritize content" => + "relevant information be accesible"
+//activity be accessible
+	"help interpret messages" => + "activity be accessible"
+//sensitive issues be surfaced
+	"comfortable communication" => + "sensitive issues be surfaced"
+//Designs - Actions
+
+	"virtual world" => ++ "consciously produce social cues"
+	"video chat" => ++ "portray social cues"
+	"textual discussion" => ++ "portray social cues"
+	"user profiles" => ++ "publish personal interests"
+	"threaded discussion" => ++ "single repository of knowledge"
+	"thread" => ++ "reply effort"
+	"textual discussoin" => ++ "natural interaction"
+	"textual discussion" => ++ "little social pressure"
+	"support thread creation" => ++ "expand spaces for interaction"
+	"single page workspace" => ++ "no horizontal scrolling"
+	"rich text" => ++ "expressive communication"
+	"require comment labeling" => ++ "analyse comment topic"
+	"reply support" => ++ "receive reply"
+	"reply support" => ++ "small messages"
+	"qurery prothesis" => ++ "complex search queries"
+	"purpose statement" => ++ "reflect user interests"
+	"promote competitoin among groups" => ++ "sign up for membership"
+	"emphasize group size and strength" => ++ "sign up for membership"
+	"profile outlines moral positoins" => ++ "identify moral differences"
+	"private discussion groups" => ++ "create safe spaces"
+	"personalization" => ++ "direct access to content of interest"
+	"moderation" => ++ "no moderation"
+	"moderation" => ++ "negative moderation"
+	"locate users on map" => ++ "emphasize shared background"
+	"local learning seminars" => ++ "bridge f2f and online"
+	"knowledge formalization" => ++ "express arguments formally"
+	"joint email" => ++ "emphasize alliance with reputable organziations"
+	"interweave content and discussion" => ++ "easily contribute"
+	"interaction archive" => ++ "indicate user activity history"
+	"incremental formalization" => ++ "knowledge formalization"
+	"implicit rating" => ++ "prioritize referenced messages"
+	"group rule followers" => ++ "adhere to standard process"
+	"advertise value of standards" => ++ "adhere to standard process"
+	"face-to-face" => ++ "verbal communication"
+	"display user post count" => ++ "recognize user status"
+	"display team icons" => ++ "membership reminder"
+	"display association with reputable org" => ++ "indicate external credibility"
+	"discussion threading" => ++ "group discussion of material"
+	"develop user roles" => ++ "active participation"
+	"conversation stored as document" => ++ "awareness of shared representation"
+	"conversation stored as document" => ++ "scroll through conversation"
+	"collaborative filtering" => ++ "prioritize content"
+	"anonymous advice" => ++ "help interpret messages"
+	"anonymity" => ++ "comfortable communication"
+"Dummy"{ & ;
+	"accessibility"
+	"community_building"
+	"discussion_support"
+	"usability"
+	"personalization"
+	"participation"
+	"group_support"
+	"information_management"
+	"deliverable"
+	"identity"
+	"trust"
+	"engagement"
+	"effort be minimal"
+	"awareness of others activities be supported"
+	"community bond be forged"
+	"summarization be simple"
+	"tracking relevant messages be simple"
+	"referring to others be simple"
+	"determining relevent discussion to join be simple"
+	"reduce effort"
+	"adoption"
+	"flame wars be avoided"
+	"community be evolvable"
+	"usability"
+	"ease of use"
+	"participation"
+	"sustained interaction"
+	"information sources be broad"
+	"participation increased"
+	"increase user social ties"
+	"foster discussion of differences"
+	"reciprocal support"
+	"content be engaging"
+	"build common ground"
+	"trust"
+	"interaction partners be assessed"
+	"decision making be facilitated"
+	"efficiently aggregate content"
+	"hidden needs uncovered"
+	"be associated with status"
+	"foster group identity"
+	"credibility be increased"
+	"engagement"
+	"involvement be increased"
+	"social norms be emergent"
+	"relevant information be accesible"
+	"activity be accessible"
+	"sensitive issues be surfaced"
+	"consciously produce social cues"
+	"portray social cues"
+	"publish personal interests"
+	"single repository of knowledge"
+	"reply effort"
+	"natural interaction"
+	"little social pressure"
+	"expand spaces for interaction"
+	"no horizontal scrolling"
+	"expressive communication"
+	"analyse comment topic"
+	"receive reply"
+	"small messages"
+	"complex search queries"
+	"reflect user interests"
+	"sign up for membership"
+	"identify moral differences"
+	"create safe spaces"
+	"direct access to content of interest"
+	"no moderation"
+	"negative moderation"
+	"emphasize shared background"
+	"bridge f2f and online"
+	"express arguments formally"
+	"emphasize alliance with reputable organziations"
+	"easily contribute"
+	"indicate user activity history"
+	"knowledge formalization"
+	"prioritize referenced messages"
+	"adhere to standard process"
+	"verbal communication"
+	"recognize user status"
+	"membership reminder"
+	"indicate external credibility"
+	"group discussion of material"
+	"active participation"
+	"awareness of shared representation"
+	"scroll through conversation"
+	"prioritize content"
+	"help interpret messages"
+	"comfortable communication"
+}

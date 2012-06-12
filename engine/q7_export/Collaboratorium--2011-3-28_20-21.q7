@@ -1,0 +1,150 @@
+
+"May Scientific accuracy and accessibility be balanced"{ & ;
+	"May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+}
+
+"May Activities be trustworthy"{ & ;
+	"May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+}
+
+	"May activity be accessible" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May agreement be sincere" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May be associated with status" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May build common ground" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May credibility be increased" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May decision making be facilitated" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May discussion be ethical" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May efficiently aggregate content" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May effort be minimal" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May flame wars be avoided" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May foster discussion of differences" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May foster group identity" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May increase user social ties" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May information sources be broad" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May neutrality" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May participation" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May relevant information be accesible" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May sensitive issues be surfaced" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May social norms be emergent" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+	"May trust" => + "May Activities be trustworthy [Scientific accuracy and accessibility be balanced]"
+//Actions - Goals
+
+//activity be accessible
+	"all viewpoints considered" => + "May activity be accessible"
+	"bridge f2f and online" => + "May activity be accessible"
+//agreement be sincere
+	"acceptance" => + "May agreement be sincere"
+	"do not state disagreement" => - "May agreement be sincere"
+	"negative moderation" => - "May agreement be sincere"
+//be associated with status
+	"distinguish members" => + "May be associated with status"
+//build common ground
+	"acceptance" => + "May build common ground"
+	"comfortable communication" => + "May build common ground"
+//credibility be increased
+	"acceptance" => + "May credibility be increased"
+	"bridge f2f and online" => + "May credibility be increased"
+	"emphasize alliance with reputable organziations" => + "May credibility be increased"
+	"indicate external credibility" => + "May credibility be increased"
+	"no moderation" => - "May credibility be increased"
+//decision making be facilitated
+	"negative moderation" => + "May decision making be facilitated"
+//discussion be ethical
+	"all viewpoints considered" => + "May discussion be ethical"
+//efficiently aggregate content
+	"adhere to standard process" => + "May efficiently aggregate content"
+	"negative moderation" => + "May efficiently aggregate content"
+//effort be minimal
+	"adhere to standard process" => + "May effort be minimal"
+//flame wars be avoided
+	"do not state disagreement" => + "May flame wars be avoided"
+	"acceptance" => + "May flame wars be avoided"
+	"negative moderation" => + "May flame wars be avoided"
+	"all viewpoints considered" => - "May flame wars be avoided"
+	"comfortable communication" => - "May flame wars be avoided"
+	"no moderation" => - "May flame wars be avoided"
+//foster discussion of differences
+	"all viewpoints considered" => + "May foster discussion of differences"
+	"do not state disagreement" => - "May foster discussion of differences"
+//foster group identity
+	"icommunicate community norms" => + "May foster group identity"
+	"obtain social cues" => + "May foster group identity"
+//increase user social ties
+	"obtain social cues" => + "May increase user social ties"
+//information sources be broad
+	"all viewpoints considered" => + "May information sources be broad"
+//neutrality
+	"do not state disagreement" => - "May neutrality"
+	"indicate external credibility" => - "May neutrality"
+	"negative moderation" => - "May neutrality"
+//participation
+	"bridge f2f and online" => + "May participation"
+	"contribute opinion" => + "May participation"
+	"negative moderation" => + "May participation"
+	"no moderation" => - "May participation"
+//relevant information be accesible
+	"do not state disagreement" => - "May relevant information be accesible"
+//sensitive issues be surfaced
+	"all viewpoints considered" => + "May sensitive issues be surfaced"
+	"comfortable communication" => + "May sensitive issues be surfaced"
+//social norms be emergent
+	"obtain social cues" => + "May social norms be emergent"
+//trust
+	"emphasize alliance with reputable organziations" => + "May trust"
+	"bridge f2f and online" => + "May trust"
+	"indicate external credibility" => + "May trust"
+//Designs - Actions
+
+	"Do provide equal opportunity to participate" => ++ "all viewpoints considered"
+	"Do moderation" => - "all viewpoints considered"
+	"Do local learning seminars" => ++ "bridge f2f and online"
+	"Do provide equal opportunity to participate" => + "acceptance"
+	"Do moderation" => + "do not state disagreement"
+	"Do moderation" => ++ "negative moderation"
+	"Do moderation" => + "distinguish members"
+	"Do moderation" => + "comfortable communication"
+	"Do joint email" => ++ "emphasize alliance with reputable organziations"
+	"Do display association with reputable org" => ++ "indicate external credibility"
+	"Do moderation" => ++ "no moderation"
+	"Do moderation" => + "adhere to standard process"
+	"Do moderation" => ++ "icommunicate community norms"
+	"Do moderation" => ++ "obtain social cues"
+	"Do provide equal opportunity to participate" => + "contribute opinion"
+"Dummy"{ & ;
+	"May Scientific accuracy and accessibility be balanced"
+	"May Activities be trustworthy"
+	"May activity be accessible"
+	"May agreement be sincere"
+	"May be associated with status"
+	"May build common ground"
+	"May credibility be increased"
+	"May decision making be facilitated"
+	"May discussion be ethical"
+	"May efficiently aggregate content"
+	"May effort be minimal"
+	"May flame wars be avoided"
+	"May foster discussion of differences"
+	"May foster group identity"
+	"May increase user social ties"
+	"May information sources be broad"
+	"May neutrality"
+	"May participation"
+	"May relevant information be accesible"
+	"May sensitive issues be surfaced"
+	"May social norms be emergent"
+	"May trust"
+	"all viewpoints considered"
+	"bridge f2f and online"
+	"acceptance"
+	"do not state disagreement"
+	"negative moderation"
+	"distinguish members"
+	"comfortable communication"
+	"emphasize alliance with reputable organziations"
+	"indicate external credibility"
+	"no moderation"
+	"adhere to standard process"
+	"icommunicate community norms"
+	"obtain social cues"
+	"contribute opinion"
+}
