@@ -1,4 +1,8 @@
 <?php
+/**
+ * Builds the site's main menu.
+ * Contextual sub options depending on the active page.
+ */
 function menu_item($text, $title, $href, $status) {
 if(isset($status)){$status="class=\"".$status."\"";}
 if(isset($href)){

@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * This file contains most of the queries used to select data.
+ * I will update this with explanations of each query.
+ */
 function output_pub_list ($ActiveProjMod) {
    return "select publications.authors_full, publications.yearpub, publications.title, publications.venue, publications.url, concat(concat('<ul>',group_concat(distinct '<li>', nodes.name SEPARATOR '')),'</ul>'), count(*), author from projmod_rels INNER JOIN claims on claim_lib = claim_id INNER JOIN nodes on parent = nodes.id INNER JOIN publications on claims.publication = publications.author where projmod_id =$ActiveProjMod AND publication<>'' AND (nodes.type='Soft Goal' OR nodes.type='Design Decision') group by publication order by count(*) DESC;";
 }

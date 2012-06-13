@@ -1,9 +1,16 @@
 <?php
 
-//Step(s) of associating Actions, Design Alternatives?
-
-
-//print_r($_POST);
+/**
+ * Step 5: Based on the goals included in the project, the system
+ * Retrieves all design features that contribute to those goals.
+ * These design features also contribute to other goals in the database.
+ * Some of these goals haven't been included in the project.
+ * This step presents those impacted / related goals to the user, to give
+ * him/her an idea of other goals that might be impacted by potential
+ * design choices. The impacted / related goals are divided by their received
+ * contributions from the recommended design features (positively, negatively 
+ * impacted, conflicting).
+ */
 
 if ($_SERVER['HTTP_HOST']==='localhost') {
   error_reporting(E_ALL);

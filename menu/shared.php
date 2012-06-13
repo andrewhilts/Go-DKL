@@ -1,4 +1,9 @@
 <?php
+/**
+ * Shared functions used to determine the current user context. 
+ * Parses the current URL to determine the active project, 
+ * active project goal, project model etc.
+ */
 function active_project(){
 if((isset($_GET['project']))&&($_GET['project']!=="")){
     $ActiveProject = urldecode($_GET['project']);

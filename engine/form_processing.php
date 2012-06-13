@@ -1,4 +1,9 @@
 <?php
+/**
+ * Big file that controls how submitted form data is treated by the system.
+ * This should likely be broken up into smaller files / functions.
+ * Additional comments will be added to explain this file soon.
+ */
 include('../menu/shared.php');
 $ActiveProject = active_project();
 include('../admin/db-permissions.php');

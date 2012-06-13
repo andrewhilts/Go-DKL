@@ -1,4 +1,8 @@
 <?php
+/**
+ * Homepage file. Links to all projects and provides links
+ * to create/edit projects.
+ */
 include('menu/shared.php');
 include('admin/db-permissions.php');
 $db_handle = mysql_connect($hostname, $username, $password);

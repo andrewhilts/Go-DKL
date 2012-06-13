@@ -1,4 +1,8 @@
 <?php
+/**
+ * Step 1: Initial stage of analysis process. Build a form that of all the
+ * project's goals. Lets user choose a single project goal to focus on.
+ */
 include('menu/shared.php');
 $ActiveProject = active_project();
 include('admin/db-permissions.php');

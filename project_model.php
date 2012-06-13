@@ -1,6 +1,11 @@
 <?php
 
-//print_r($_POST);
+/**
+ * Probably the most complex page. This (messy) script controls the 
+ * construction of the HTML unordered, hierarchical list from the retrieved 
+ * relationships from the database. See the comment around line 230 for more 
+ * info.
+ */
 
 if ($_SERVER['HTTP_HOST']==='localhost') {
   error_reporting(E_ALL);

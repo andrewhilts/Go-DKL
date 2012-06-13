@@ -1,9 +1,8 @@
 <?php
 
-//Step(s) of associating Actions, Design Alternatives?
-
-
-//print_r($_POST);
+/**
+ * Generates a simple report based on a project model. Lists all recommended design features, and the goals it impacts. Also lists all publications that originally defined the relationships included in the project model.
+ */
 
 if ($_SERVER['HTTP_HOST']==='localhost') {
   error_reporting(E_ALL);

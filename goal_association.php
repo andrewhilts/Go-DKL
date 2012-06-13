@@ -1,4 +1,9 @@
 <?php
+/**
+ * Step 2: Requires that the user has selected one of his/her project goals 
+ * to analyse in more detail (the "active goal"). List all "aggregate goals" 
+ * (goal categories) that the user can associate with the active goal.
+ */
 include('menu/shared.php');
 $ActiveProject = active_project();
 

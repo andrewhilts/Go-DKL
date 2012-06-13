@@ -1,9 +1,9 @@
 <?php
-
-//Step(s) of associating Actions, Design Alternatives?
-
-
-//print_r($_POST);
+/**
+ * Step 3: Based on the goal associations of Step 2, the system retrieves all 
+ * goals that fall under those categories. The user can explore those goals 
+ * and include them in his/her project.
+ */
 
 if ($_SERVER['HTTP_HOST']==='localhost') {
   error_reporting(E_ALL);

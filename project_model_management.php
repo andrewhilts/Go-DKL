@@ -1,9 +1,15 @@
 <?php
 
-//Step(s) of associating Actions, Design Alternatives?
+/**
+ * This step lets users create project models. Project models are customized 
+ * goal models. The source for project models are all the relationships between
+ * included goals and design features stored in the database. The user may 
+ * then omit / customize the relationships to create a tailored project model.
+ *
+ * This page is the general index page for project models. It provides links
+ * related to each model, and a link to a new project model creation form.
+ */
 
-
-//print_r($_POST);
 
 if ($_SERVER['HTTP_HOST']==='localhost') {
   error_reporting(E_ALL);
